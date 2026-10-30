@@ -20,8 +20,8 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22, cache: npm }
-      - run: npm ci
-      - run: npm --prefix apps/dashboard ci
+      - run: npm install
+      - run: npm --prefix apps/dashboard install
       - run: npm run format:check
       - run: npm run lint
       - run: npm run typecheck
@@ -32,3 +32,4 @@ jobs:
         run: npm run db:migrate
         env:
           DATABASE_URL: postgres://puffx:puffx_test_password@localhost:5432/puffx
+
