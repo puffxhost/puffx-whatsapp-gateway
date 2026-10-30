@@ -1,0 +1,7 @@
+node_modules/
+dist/
+apps/dashboard/dist/
+.env
+data/
+coverage/
+*.log

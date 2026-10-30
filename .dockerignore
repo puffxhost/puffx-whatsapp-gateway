@@ -1,0 +1,9 @@
+node_modules
+apps/dashboard/node_modules
+dist
+apps/dashboard/dist
+.git
+.env
+data
+coverage
+*.log

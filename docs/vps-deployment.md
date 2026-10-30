@@ -1,0 +1,3 @@
+# Linux VPS deployment
+
+Use a supported Linux VPS with Docker, persistent disk, outbound WebSocket access, DNS, and HTTPS. Point DNS at the VPS, install Docker Compose and Nginx, create `.env` with unique strong secrets, and set a public HTTPS base URL. Run `docker compose up -d --build`; proxy HTTPS to loopback port 3000 using `docker/nginx.conf` and Certbot. Confirm `/api/v1/ready` returns ready. Back up PostgreSQL and the persistent WhatsApp auth volume before upgrades. The API typecheck, unit test, and frontend production build pass on the development workstation. Docker and VPS deployment have not been executed here; provider-specific networking, quotas, and restart behavior remain unverified.

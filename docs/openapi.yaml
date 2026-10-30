@@ -1,0 +1,260 @@
+openapi: 3.1.0
+info:
+  title: Puffx WhatsApp Gateway API
+  version: 0.1.0
+  description: >-
+    Owner-isolated self-hosted gateway. Sent means accepted by the provider;
+    delivered/read are not available in this release.
+servers:
+  - url: http://127.0.0.1:3000/api/v1
+    description: Local development only
+security:
+  - cookieAuth: []
+paths:
+  /health:
+    get:
+      summary: Liveness
+      security: []
+      responses:
+        "200":
+          description: Healthy
+  /ready:
+    get:
+      summary: Database readiness
+      security: []
+      responses:
+        "200":
+          description: Ready
+        "503":
+          description: Not ready
+  /auth/register:
+    post:
+      summary: Register dashboard account
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email:
+                  type: string
+                  format: email
+                password:
+                  type: string
+                  minLength: 12
+      responses:
+        "201":
+          description: Registered
+        "409":
+          description: Email exists
+  /auth/login:
+    post:
+      summary: Create dashboard session
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [email, password]
+              properties:
+                email: { type: string, format: email }
+                password: { type: string }
+      responses:
+        "200":
+          description: Signed in
+        "401":
+          description: Invalid credentials
+  /auth/logout:
+    post:
+      summary: End dashboard session
+      responses:
+        "204":
+          description: Signed out
+        "401":
+          description: Unauthorized
+  /auth/me:
+    get:
+      summary: Current dashboard user
+      responses:
+        "200":
+          description: Current user
+  /sessions:
+    get:
+      summary: List owned sessions
+      responses:
+        "200":
+          description: Sessions
+    post:
+      summary: Create session
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [name]
+              properties:
+                name: { type: string, minLength: 1, maxLength: 80 }
+      responses:
+        "201":
+          description: Created
+  /sessions/{id}:
+    parameters:
+      - in: path
+        name: id
+        required: true
+        schema: { type: string, format: uuid }
+    get:
+      summary: Read owned session
+      responses:
+        "200":
+          description: Session
+        "404":
+          description: Not found
+    delete:
+      summary: Delete owned session
+      responses:
+        "204":
+          description: Deleted
+  /sessions/{id}/pairing/qr:
+    parameters:
+      - in: path
+        name: id
+        required: true
+        schema: { type: string, format: uuid }
+    post:
+      summary: Start QR pairing
+      responses:
+        "202":
+          description: Pairing started
+    get:
+      summary: Poll QR and connection status
+      responses:
+        "200":
+          description: Current pairing state
+  /sessions/{id}/pairing/phone:
+    parameters:
+      - in: path
+        name: id
+        required: true
+        schema: { type: string, format: uuid }
+    post:
+      summary: Request phone pairing code
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [phone]
+              properties:
+                phone: { type: string, example: "+919876543210" }
+      responses:
+        "200":
+          description: Pairing code returned once
+        "429":
+          description: Pairing rate limit
+  /sessions/{id}/reconnect:
+    post:
+      summary: Reconnect owned session
+      responses:
+        "202":
+          description: Reconnecting
+  /sessions/{id}/logout:
+    post:
+      summary: Log out owned session
+      responses:
+        "200":
+          description: Logged out
+  /api-keys:
+    get:
+      summary: List keys without secrets
+      responses:
+        "200":
+          description: Key metadata
+    post:
+      summary: Create session-scoped key
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [name, sessionId]
+              properties:
+                name: { type: string }
+                sessionId: { type: string, format: uuid }
+      responses:
+        "201":
+          description: Secret returned exactly once
+  /api-keys/{id}:
+    delete:
+      summary: Revoke owned key
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        "204":
+          description: Revoked
+  /messages/send:
+    post:
+      summary: Send text via an authorized connected session
+      security:
+        - bearerAuth: []
+      parameters:
+        - in: header
+          name: Idempotency-Key
+          schema: { type: string, maxLength: 200 }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [sessionId, to, type, message]
+              properties:
+                sessionId: { type: string, format: uuid }
+                to: { type: string, pattern: "^[1-9][0-9]{7,14}$" }
+                type: { const: text }
+                message: { type: string, minLength: 1, maxLength: 4096 }
+      responses:
+        "202":
+          description: Provider accepted; delivery is unknown
+        "401":
+          description: Invalid API key
+        "409":
+          description: Session disconnected
+  /messages:
+    get:
+      summary: List owned message history
+      responses:
+        "200":
+          description: Message page
+  /messages/{id}:
+    get:
+      summary: Read owned message
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        "200":
+          description: Message status
+        "404":
+          description: Not found
+components:
+  securitySchemes:
+    cookieAuth:
+      type: apiKey
+      in: cookie
+      name: puffx.sid
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: API key
