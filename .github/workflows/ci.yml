@@ -32,4 +32,3 @@ jobs:
         run: npm run db:migrate
         env:
           DATABASE_URL: postgres://puffx:puffx_test_password@localhost:5432/puffx
-
