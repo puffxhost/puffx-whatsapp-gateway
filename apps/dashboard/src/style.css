@@ -436,3 +436,176 @@ footer {
     font-size: 8px;
   }
 }
+
+/* Soft ambient light and short entrance motion keep the dashboard lively without distracting from pairing. */
+body {
+  isolation: isolate;
+  overflow-x: hidden;
+}
+#root {
+  position: relative;
+  z-index: 1;
+}
+body::before {
+  content: "";
+  position: fixed;
+  z-index: 0;
+  pointer-events: none;
+  inset: -30vmax;
+  background:
+    radial-gradient(ellipse at 25% 35%, #b8f36b18 0, transparent 28%),
+    radial-gradient(ellipse at 72% 42%, #8f7bff1c 0, transparent 30%),
+    radial-gradient(ellipse at 52% 75%, #59c4d00d 0, transparent 28%);
+  filter: blur(26px);
+  animation: ambient-drift 24s ease-in-out infinite alternate;
+}
+button {
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease,
+    filter 180ms ease,
+    background-color 180ms ease;
+}
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px #0003;
+}
+button:active {
+  transform: translateY(0) scale(0.98);
+}
+.card {
+  animation: rise-in 650ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
+  transition:
+    border-color 220ms ease,
+    box-shadow 220ms ease,
+    transform 220ms ease;
+}
+.card:hover {
+  border-color: #41485a;
+  box-shadow: 0 22px 64px #05060a55;
+}
+.auth {
+  animation-delay: 80ms;
+}
+.logo {
+  animation: logo-breathe 4s ease-in-out infinite;
+}
+.content > header {
+  animation: rise-in 600ms 80ms cubic-bezier(0.2, 0.75, 0.25, 1) both;
+}
+.stats .stat:nth-child(1) {
+  animation-delay: 130ms;
+}
+.stats .stat:nth-child(2) {
+  animation-delay: 220ms;
+}
+.stats .stat:nth-child(3) {
+  animation-delay: 310ms;
+}
+.stat strong {
+  transition: color 220ms ease;
+}
+.stat:hover strong {
+  color: #c9ff8b;
+}
+.dot {
+  animation: status-pulse 2.2s ease-out infinite;
+}
+.badge.connected i {
+  animation: status-pulse 2.2s ease-out infinite;
+}
+.emptyicon {
+  animation: icon-float 3.8s ease-in-out infinite;
+}
+.session {
+  animation: row-in 450ms ease both;
+  transition:
+    background-color 200ms ease,
+    padding 200ms ease;
+}
+.session:hover {
+  background: #ffffff06;
+  padding-left: 10px;
+}
+.qrbox {
+  animation: qr-in 320ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  box-shadow: 0 22px 70px #0007;
+}
+@keyframes ambient-drift {
+  0% {
+    transform: translate3d(-2%, -1%, 0) rotate(-5deg) scale(0.96);
+  }
+  50% {
+    transform: translate3d(2%, 1%, 0) rotate(4deg) scale(1.04);
+  }
+  100% {
+    transform: translate3d(-1%, 2%, 0) rotate(-2deg) scale(1);
+  }
+}
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes row-in {
+  from {
+    opacity: 0;
+    transform: translateX(-9px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes qr-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+@keyframes icon-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+@keyframes status-pulse {
+  0% {
+    box-shadow: 0 0 0 0 #b8f36b70;
+  }
+  70%,
+  100% {
+    box-shadow: 0 0 0 7px #b8f36b00;
+  }
+}
+@keyframes logo-breathe {
+  0%,
+  100% {
+    box-shadow: 0 0 18px #b8f36b1b;
+  }
+  50% {
+    box-shadow: 0 0 30px #b8f36b4a;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}
