@@ -52,6 +52,25 @@ To remove the database and WhatsApp login data as well (destructive):
 docker compose down -v
 ```
 
+## Publish and use the Docker Hub image
+
+The project includes a GitHub Actions workflow that builds this Dockerfile and publishes `puffxhost/puffx-whatsapp-gateway` to [Docker Hub](https://hub.docker.com/repository/docker/puffxhost/puffx-whatsapp-gateway/general). It publishes `latest` and a commit tag when run manually, and also publishes automatically when a version tag such as `v1.0.0` is pushed.
+
+To authorize the workflow once:
+
+1. In Docker Hub, create a **Personal access token** with **Read & Write** permissions for your account. Copy it when Docker Hub shows it; do not paste it into chat or commit it to the repository.
+2. In the GitHub repository, open **Settings → Secrets and variables → Actions → New repository secret**. Name the secret `DOCKERHUB_TOKEN` and paste the Docker Hub token as its value.
+3. Open **Actions → Publish Docker image → Run workflow** on the default branch. When it finishes successfully, the `latest` image is available in Docker Hub.
+
+The local `docker compose up -d --build` command builds from source. To run the published image instead, use the repository's Compose file and pull the image first:
+
+```sh
+docker compose pull gateway
+docker compose up -d --no-build
+```
+
+The Compose file still starts PostgreSQL and mounts persistent database and WhatsApp auth volumes. If the Docker Hub repository is private, sign in to Docker Hub on the VPS before pulling the image.
+
 ## First-time setup
 
 1. Open the dashboard and choose **Create an account**. Use a strong password.

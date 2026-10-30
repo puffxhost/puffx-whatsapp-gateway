@@ -13,6 +13,7 @@ services:
       timeout: 5s
       retries: 5
   gateway:
+    image: puffxhost/puffx-whatsapp-gateway:latest
     build: .
     restart: unless-stopped
     depends_on:
