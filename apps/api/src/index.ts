@@ -1,1 +1,533 @@
-YªçŠx-®éÜj×¢ëiºÚ+Š§j[h‘éÜ¢éíçİ:N‹Z–‹­¦ëeŠw¬Õ¥µÁ½ÉĞ€‰‘½Ñ•¹Ø½½¹™¥œˆì)¥µÁ½ÉĞì…•ÍÌô™É½´€‰¹½‘”é™Ì½ÁÉ½µ¥Í•Ìˆì)¥µÁ½ÉĞÁ…Ñ ™É½´€‰¹½‘”éÁ…Ñ ˆì)¥µÁ½ÉĞ•áÁÉ•ÍÌ™É½´€‰•áÁÉ•ÍÌˆì)¥µÁ½ÉĞÍ•ÍÍ¥½¸™É½´€‰•áÁÉ•ÍÌµÍ•ÍÍ¥½¸ˆì)¥µÁ½ÉĞÁM•ÍÍ¥½¸™É½´€‰½¹¹•ĞµÁœµÍ¥µÁ±”ˆì)¥µÁ½ÉĞ½ÉÌ™É½´€‰½ÉÌˆì)¥µÁ½ÉĞ¡•±µ•Ğ™É½´€‰¡•±µ•Ğˆì)¥µÁ½ÉĞÉ…Ñ•1¥µ¥Ğ™É½´€‰•áÁÉ•ÍÌµÉ…Ñ”µ±¥µ¥Ğˆì)¥µÁ½ÉĞ‰ÉåÁĞ™É½´€‰‰ÉåÁÑ©Ìˆì)¥µÁ½ÉĞìèô™É½´€‰é½ˆì)¥µÁ½ÉĞìÁ½½°°µ¥É…Ñ”°…Õ‘¥Ğô™É½´€ˆ¸½‘ˆ¹©Ìˆì)¥µÁ½ÉĞìÉ•ÅÕ¥É•UÍ•È°…Á¥-•åÕÑ °¹•İÁ¥-•ä°¡…Í¡-•äô™É½´€ˆ¸½…ÕÑ ¹©Ìˆì)¥µÁ½ÉĞì	…¥±•åÍAÉ½Ù¥‘•Èô™É½´€ˆ¸½ÁÉ½Ù¥‘•È¹©Ìˆì)½¹ÍĞ…ÁÀ€ô•áÁÉ•ÍÌ ¤°(€AMÑ½É”€ôÁM•ÍÍ¥½¸¡Í•ÍÍ¥½¸¤°(€ÁÉ½Ù¥‘•È€ô¹•Ü	…¥±•åÍAÉ½Ù¥‘•È ¤ì)½¹ÍĞ½É¥¥¹1¥ÍĞ€ô€ (€ÁÉ½•ÍÌ¹•¹Ø¹11=]}=I%%9L€üü€‰¡ÑÑÀè¼¼ÄÈÜ¸À¸À¸ÄèÌÀÀÀˆ(¤¹ÍÁ±¥Ğ ˆ°ˆ¤ì)…ÁÀ¹‘¥Í…‰±” ‰àµÁ½İ•É•µ‰äˆ¤ì)…ÁÀ¹Í•Ğ ‰ÑÉÕÍĞÁÉ½áäˆ°ÁÉ½•ÍÌ¹•¹Ø¹QIUMQ}AI=ad€ôôô€‰ÑÉÕ”ˆ€ü€Ä€è™…±Í”¤ì)…ÁÀ¹ÕÍ”¡¡•±µ•Ğ¡ì½¹Ñ•¹ÑM•ÕÉ¥ÑåA½±¥äè™…±Í”ô¤¤ì)…ÁÀ¹ÕÍ”¡½ÉÌ¡ì½É¥¥¸è½É¥¥¹1¥ÍĞ°É•‘•¹Ñ¥…±ÌèÑÉÕ”ô¤¤ì)…ÁÀ¹ÕÍ”¡•áÁÉ•ÍÌ¹©Í½¸¡ì±¥µ¥Ğè€ˆÄÈá­ˆˆô¤¤ì)…ÁÀ¹ÕÍ” (€Í•ÍÍ¥½¸¡ì(€€€¹…µ”è€‰ÁÕ™™à¹Í¥ˆ°(€€€ÍÑ½É”è¹•ÜAMÑ½É”¡ìÁ½½°°É•…Ñ•Q…‰±•%™5¥ÍÍ¥¹œèÑÉÕ”ô¤°(€€€Í•É•Ğè(€€€€€ÁÉ½•ÍÌ¹•¹Ø¹MMM%=9}MIP€üü€‰‘•Ù•±½Áµ•¹Ğµ½¹±äµ¡…¹”µÑ¡¥ÌµÍ•É•Ğµ¹½Üˆ°(€€€É•Í…Ù”è™…±Í”°(€€€Í…Ù•U¹¥¹¥Ñ¥…±¥é•è™…±Í”°(€€€½½­¥”èì(€€€€€¡ÑÑÁ=¹±äèÑÉÕ”°(€€€€€Í…µ•M¥Ñ”è€‰±…àˆ°(€€€€€Í•ÕÉ”èÁÉ½•ÍÌ¹•¹Ø¹==-%}MUI€ôôô€‰ÑÉÕ”ˆ°(€€€€€µ…á”è€à€¨€ØÀ€¨€ØÀ€¨€ÄÀÀÀ°(€€€ô°(€ô¤°(¤ì)½¹ÍĞ…ÕÑ¡1¥µ¥Ğ€ôÉ…Ñ•1¥µ¥Ğ¡ì(€İ¥¹‘½İ5Ìè€ÄÔ€¨€ØÁ|ÀÀÀ°(€±¥µ¥Ğè€ÄÀ°(€ÍÑ…¹‘…É‘!•…‘•ÉÌèÑÉÕ”°(€±•…å!•…‘•ÉÌè™…±Í”°)ô¤ì)½¹ÍĞ…Á¥1¥µ¥Ğ€ôÉ…Ñ•1¥µ¥Ğ¡ì(€İ¥¹‘½İ5Ìè€ØÁ|ÀÀÀ°(€±¥µ¥Ğè€ØÀ°(€ÍÑ…¹‘…É‘!•…‘•ÉÌèÑÉÕ”°(€±•…å!•…‘•ÉÌè™…±Í”°)ô¤ì)…ÁÀ¹•Ğ ˆ½…Á¤½ØÄ½¡•…±Ñ ˆ°€¡}Ä°È¤€ôøÈ¹©Í½¸¡ìÍÑ…ÑÕÌè€‰½¬ˆô¤¤ì)…ÁÀ¹•Ğ ˆ½…Á¤½ØÄ½É•…‘äˆ°…Íå¹Œ€¡}Ä°È¤€ôøì(€ÑÉäì(€€€…İ…¥ĞÁ½½°¹ÅÕ•Éä ‰M1P€Äˆ¤ì(€€€È¹©Í½¸¡ìÍÑ…ÑÕÌè€‰É•…‘äˆ°‘…Ñ…‰…Í”è€‰½¬ˆô¤ì(€ô…Ñ ì(€€€È¹ÍÑ…ÑÕÌ ÔÀÌ¤¹©Í½¸¡ìÍÑ…ÑÕÌè€‰¹½Ñ}É•…‘äˆô¤ì(€ô)ô¤ì)…ÁÀ¹Á½ÍĞ ˆ½…Á¤½ØÄ½…ÕÑ ½É•¥ÍÑ•Èˆ°…ÕÑ¡1¥µ¥Ğ°…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€ÑÉäì(€€€½¹ÍĞØ€ôè(€€€€€€¹½‰©•Ğ¡ì(€€€€€€€•µ…¥°èè¹ÍÑÉ¥¹œ ¤¹•µ…¥° ¤¹µ…à ÈÔĞ¤°(€€€€€€€Á…ÍÍİ½Éèè¹ÍÑÉ¥¹œ ¤¹µ¥¸ ÄÈ¤¹µ…à ÄÈà¤°(€€€€€ô¤(€€€€€€¹Á…ÉÍ”¡É•Ä¹‰½‘ä¤ì(€€€½¹ÍĞ¡…Í €ô…İ…¥Ğ‰ÉåÁĞ¹¡…Í ¡Ø¹Á…ÍÍİ½É°€ÄÈ¤ì(€€€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰%9MIP%9Q<ÕÍ•ÉÌ¡•µ…¥°±Á…ÍÍİ½É‘}¡…Í ¤Y1UL¡±½İ•È Ä¤°È¤IQUI9%9¥±•µ…¥°±É½±”ˆ°(€€€€€mØ¹•µ…¥°°¡…Í¡t°(€€€€¤ì(€€€É•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%€ôÉ½İÍlÁt¹¥ì(€€€É•Ä¹Í•ÍÍ¥½¸¹É½±”€ôÉ½İÍlÁt¹É½±”ì(€€€É•Ì¹ÍÑ…ÑÕÌ ÈÀÄ¤¹©Í½¸¡ìÕÍ•Èèì¥èÉ½İÍlÁt¹¥°•µ…¥°èÉ½İÍlÁt¹•µ…¥°ôô¤ì(€ô…Ñ €¡”è…¹ä¤ì(€€€¥˜€¡”ü¹½‘”€ôôô€ˆÈÌÔÀÔˆ¤(€€€€€É•ÑÕÉ¸É•Ì¹ÍÑ…ÑÕÌ ĞÀä¤¹©Í½¸¡ì(€€€€€€€•ÉÉ½Èèì½‘”è€‰5%1}a%MQLˆ°µ•ÍÍ…”è€‰½Õ¹Ğ…±É•…‘ä•á¥ÍÑÌˆô°(€€€€€ô¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…ÁÀ¹Á½ÍĞ ˆ½…Á¤½ØÄ½…ÕÑ ½±½¥¸ˆ°…ÕÑ¡1¥µ¥Ğ°…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€ÑÉäì(€€€½¹ÍĞØ€ôè(€€€€€€¹½‰©•Ğ¡ì•µ…¥°èè¹ÍÑÉ¥¹œ ¤¹•µ…¥° ¤°Á…ÍÍİ½Éèè¹ÍÑÉ¥¹œ ¤¹µ¥¸ Ä¤ô¤(€€€€€€¹Á…ÉÍ”¡É•Ä¹‰½‘ä¤ì(€€€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰M1P¥±•µ…¥°±Á…ÍÍİ½É‘}¡…Í ±É½±”I=4ÕÍ•ÉÌ]!I•µ…¥°õ±½İ•È Ä¤ˆ°(€€€€€mØ¹•µ…¥±t°(€€€€¤ì(€€€¥˜€ …É½İÍlÁtñğ€„¡…İ…¥Ğ‰ÉåÁĞ¹½µÁ…É”¡Ø¹Á…ÍÍİ½É°É½İÍlÁt¹Á…ÍÍİ½É‘}¡…Í ¤¤¤(€€€€€É•ÑÕÉ¸É•Ì¹ÍÑ…ÑÕÌ ĞÀÄ¤¹©Í½¸¡ì(€€€€€€€•ÉÉ½Èèì(€€€€€€€€€½‘”è€‰%9Y1%}I9Q%1Lˆ°(€€€€€€€€€µ•ÍÍ…”è€‰µ…¥°½ÈÁ…ÍÍİ½É¥Ì¥¹½ÉÉ•Ğˆ°(€€€€€€€ô°(€€€€€ô¤ì(€€€É•Ä¹Í•ÍÍ¥½¸¹É••¹•É…Ñ” ¡•ÉÈ¤€ôøì(€€€€€¥˜€¡•ÉÈ¤É•ÑÕÉ¸¹•áĞ¡•ÉÈ¤ì(€€€€€É•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%€ôÉ½İÍlÁt¹¥ì(€€€€€É•Ä¹Í•ÍÍ¥½¸¹É½±”€ôÉ½İÍlÁt¹É½±”ì(€€€€€É•Ì¹©Í½¸¡ìÕÍ•Èèì¥èÉ½İÍlÁt¹¥°•µ…¥°èÉ½İÍlÁt¹•µ…¥°ôô¤ì(€€€ô¤ì(€ô…Ñ €¡”¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…ÁÀ¹Á½ÍĞ ˆ½…Á¤½ØÄ½…ÕÑ ½±½½ÕĞˆ°É•ÅÕ¥É•UÍ•È°€¡É•Ä°É•Ì¤€ôø(€É•Ä¹Í•ÍÍ¥½¸¹‘•ÍÑÉ½ä  ¤€ôøÉ•Ì¹ÍÑ…ÑÕÌ ÈÀĞ¤¹•¹ ¤¤°(¤ì)…ÁÀ¹•Ğ ˆ½…Á¤½ØÄ½…ÕÑ ½µ”ˆ°É•ÅÕ¥É•UÍ•È°…Íå¹Œ€¡É•Ä°É•Ì¤€ôøì(€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€‰M1P¥±•µ…¥°±É½±”±É•…Ñ•‘}…ĞI=4ÕÍ•ÉÌ]!I¥ôÄˆ°(€€€mÉ•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%‘t°(€€¤ì(€É•Ì¹©Í½¸¡ìÕÍ•ÈèÉ½İÍlÁtô¤ì)ô¤ì)…ÁÀ¹ÕÍ” ˆ½…Á¤½ØÄˆ°…Á¥1¥µ¥Ğ¤ì)…ÁÀ¹Á½ÍĞ ˆ½…Á¤½ØÄ½Í•ÍÍ¥½¹Ìˆ°É•ÅÕ¥É•UÍ•È°…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€ÑÉäì(€€€½¹ÍĞØ€ôè(€€€€€€¹½‰©•Ğ¡ì¹…µ”èè¹ÍÑÉ¥¹œ ¤¹ÑÉ¥´ ¤¹µ¥¸ Ä¤¹µ…à àÀ¤ô¤(€€€€€€¹Á…ÉÍ”¡É•Ä¹‰½‘ä¤ì(€€€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰%9MIP%9Q<Í•ÍÍ¥½¹Ì¡ÕÍ•É}¥±¹…µ”¤Y1UL Ä°È¤IQUI9%9€¨ˆ°(€€€€€mÉ•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%°Ø¹¹…µ•t°(€€€€¤ì(€€€…İ…¥Ğ…Õ‘¥Ğ¡É•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%°€‰Í•ÍÍ¥½¸¹É•…Ñ•ˆ°É½İÍlÁt¹¥°É•Ä¹¥À¤ì(€€€É•Ì¹ÍÑ…ÑÕÌ ÈÀÄ¤¹©Í½¸¡ìÍ•ÍÍ¥½¸èÉ½İÍlÁtô¤ì(€ô…Ñ €¡”¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…ÁÀ¹•Ğ ˆ½…Á¤½ØÄ½Í•ÍÍ¥½¹Ìˆ°É•ÅÕ¥É•UÍ•È°…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€ÑÉäì(€€€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰M1P¥±¹…µ”±ÍÑ…ÑÕÌ±Á¡½¹”±±…ÍÑ}½¹¹•Ñ•‘}…Ğ±É•…Ñ•‘}…ĞI=4Í•ÍÍ¥½¹Ì]!IÕÍ•É}¥ôÄ=IH	dÉ•…Ñ•‘}…ĞMˆ°(€€€€€mÉ•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%‘t°(€€€€¤ì(€€€É•Ì¹©Í½¸¡ìÍ•ÍÍ¥½¹ÌèÉ½İÌô¤ì(€ô…Ñ €¡”¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…ÁÀ¹•Ğ ˆ½…Á¤½ØÄ½Í•ÍÍ¥½¹Ì¼é¥ˆ°É•ÅÕ¥É•UÍ•È°…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€ÑÉäì(€€€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰M1P¥±¹…µ”±ÍÑ…ÑÕÌ±Á¡½¹”±±…ÍÑ}½¹¹•Ñ•‘}…Ğ±É•…Ñ•‘}…ĞI=4Í•ÍÍ¥½¹Ì]!I¥ôÄ9ÕÍ•É}¥ôÈˆ°(€€€€€mMÑÉ¥¹œ¡É•Ä¹Á…É…µÌ¹¥¤°É•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%‘t°(€€€€¤ì(€€€¥˜€ …É½İÍlÁt¤(€€€€€É•ÑÕÉ¸É•Ì(€€€€€€€€¹ÍÑ…ÑÕÌ ĞÀĞ¤(€€€€€€€€¹©Í½¸¡ì•ÉÉ½Èèì½‘”è€‰9=Q}=U9ˆ°µ•ÍÍ…”è€‰M•ÍÍ¥½¸¹½Ğ™½Õ¹ˆôô¤ì(€€€É•Ì¹©Í½¸¡ìÍ•ÍÍ¥½¸èÉ½İÍlÁtô¤ì(€ô…Ñ €¡”¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…Íå¹Œ™Õ¹Ñ¥½¸½İ¹•ÉM•ÍÍ¥½¸¡¥èÍÑÉ¥¹œ°ÕÍ•ÈèÍÑÉ¥¹œ¤ì(€½¹ÍĞÈ€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€‰M1P¥±ÍÑ…ÑÕÌI=4Í•ÍÍ¥½¹Ì]!I¥ôÄ9ÕÍ•É}¥ôÈˆ°(€€€m¥°ÕÍ•Ét°(€€¤ì(€É•ÑÕÉ¸È¹É½İÍlÁt…Ìì¥èÍÑÉ¥¹œìÍÑ…ÑÕÌèÍÑÉ¥¹œôğÕ¹‘•™¥¹•ì)ô)™Õ¹Ñ¥½¸ÁÕ‰±¥Í¡M•ÍÍ¥½¸¡¥èÍÑÉ¥¹œ°•Ù•¹Ğè…¹ä¤ì(€Ù½¥Á½½°¹ÅÕ•Éä (€€€€‰UAQÍ•ÍÍ¥½¹ÌMPÍÑ…ÑÕÌôÈ±Á¡½¹”õ=1M Ì±Á¡½¹”¤±±…ÍÑ}½¹¹•Ñ•‘}…ĞõM]!8€Èô½¹¹•Ñ•œQ!8¹½Ü ¤1M±…ÍÑ}½¹¹•Ñ•‘}…Ğ9±ÕÁ‘…Ñ•‘}…Ğõ¹½Ü ¤]!I¥ôÄˆ°(€€€m¥°•Ù•¹Ğ¹ÍÑ…ÑÕÌ°•Ù•¹Ğ¹Á¡½¹”€üü¹Õ±±t°(€€¤ì)ô)…ÁÀ¹Á½ÍĞ (€€ˆ½…Á¤½ØÄ½Í•ÍÍ¥½¹Ì¼é¥½Á…¥É¥¹œ½ÅÈˆ°(€É•ÅÕ¥É•UÍ•È°(€…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€€€ÑÉäì(€€€€€½¹ÍĞÌ€ô…İ…¥Ğ½İ¹•ÉM•ÍÍ¥½¸¡MÑÉ¥¹œ¡É•Ä¹Á…É…µÌ¹¥¤°É•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%„¤ì(€€€€€¥˜€ …Ì¤(€€€€€€€É•ÑÕÉ¸É•Ì(€€€€€€€€€€¹ÍÑ…ÑÕÌ ĞÀĞ¤(€€€€€€€€€€¹©Í½¸¡ì•ÉÉ½Èèì½‘”è€‰9=Q}=U9ˆ°µ•ÍÍ…”è€‰M•ÍÍ¥½¸¹½Ğ™½Õ¹ˆôô¤ì(€€€€€…İ…¥ĞÁ½½°¹ÅÕ•Éä ‰UAQÍ•ÍÍ¥½¹ÌMPÍÑ…ÑÕÌô½¹¹•Ñ¥¹œœ]!I¥ôÄˆ°l(€€€€€€€Ì¹¥°(€€€€€t¤ì(€€€€€…İ…¥ĞÁÉ½Ù¥‘•È¹½¹¹•Ğ¡Ì¹¥°€¡•Ù•¹Ğ¤€ôøì(€€€€€€€¥˜€¡•Ù•¹Ğ¹ÑåÁ”€ôôô€‰ÅÈˆ¤ì(€€€€€€€€€Ù½¥¥µÁ½ÉĞ ‰ÅÉ½‘”ˆ¤(€€€€€€€€€€€€¹Ñ¡•¸ ¡Ä¤€ôøÄ¹‘•™…Õ±Ğ¹Ñ½…Ñ…UI0¡•Ù•¹Ğ¹ÅÈ¤¤(€€€€€€€€€€€€¹Ñ¡•¸ ¡ÅÈ¤€ôøì(€€€€€€€€€€€€€ÅÉ…¡”¹Í•Ğ¡Ì¹¥°ÅÈ¤ì(€€€€€€€€€€€€€Í•ÑQ¥µ•½ÕĞ  ¤€ôøÅÉ…¡”¹‘•±•Ñ”¡Ì¹¥¤°€ØÁ|ÀÀÀ¤¹Õ¹É•˜ ¤ì(€€€€€€€€€€€ô¤ì(€€€€€€€ô•±Í”ÁÕ‰±¥Í¡M•ÍÍ¥½¸¡Ì¹¥°•Ù•¹Ğ¤ì(€€€€€ô¤ì(€€€€€½¹ÍĞ•á¥ÍÑ¥¹œ€ôÅÉ…¡”¹•Ğ¡Ì¹¥¤ì(€€€€€¥˜€¡•á¥ÍÑ¥¹œ¤É•ÑÕÉ¸É•Ì¹©Í½¸¡ìÍÑ…ÑÕÌè€‰ÅÈˆ°ÅÉ½‘•…Ñ…UÉ°è•á¥ÍÑ¥¹œô¤ì(€€€€€É•Ì¹ÍÑ…ÑÕÌ ÈÀÈ¤¹©Í½¸¡ì(€€€€€€€ÍÑ…ÑÕÌè€‰½¹¹•Ñ¥¹œˆ°(€€€€€€€µ•ÍÍ…”è(€€€€€€€€€€‰A…¥É¥¹œÍÑ…ÉÑ•ìÁ½±°P€½…Á¤½ØÄ½Í•ÍÍ¥½¹Ì¼é¥½Á…¥É¥¹œ½ÅÈ™½ÈÑ¡”EH¥µ…”ˆ°(€€€€€ô¤ì(€€€ô…Ñ €¡”¤ì(€€€€€¹•áĞ¡”¤ì(€€€ô(€ô°(¤ì)½¹ÍĞÅÉ…¡”€ô¹•Ü5…ÀñÍÑÉ¥¹œ°ÍÑÉ¥¹œø ¤ì)…ÁÀ¹•Ğ ˆ½…Á¤½ØÄ½Í•ÍÍ¥½¹Ì¼é¥½Á…¥É¥¹œ½ÅÈˆ°É•ÅÕ¥É•UÍ•È°…Íå¹Œ€¡É•Ä°É•Ì¤€ôøì(€½¹ÍĞÌ€ô…İ…¥Ğ½İ¹•ÉM•ÍÍ¥½¸¡MÑÉ¥¹œ¡É•Ä¹Á…É…µÌ¹¥¤°É•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%„¤ì(€¥˜€ …Ì¤(€€€É•ÑÕÉ¸É•Ì(€€€€€€¹ÍÑ…ÑÕÌ ĞÀĞ¤(€€€€€€¹©Í½¸¡ì•ÉÉ½Èèì½‘”è€‰9=Q}=U9ˆ°µ•ÍÍ…”è€‰M•ÍÍ¥½¸¹½Ğ™½Õ¹ˆôô¤ì(€½¹ÍĞÅÈ€ôÅÉ…¡”¹•Ğ¡Ì¹¥¤ì(€É•Ì¹©Í½¸¡ÅÈ€üìÍÑ…ÑÕÌè€‰ÅÈˆ°ÅÉ½‘•…Ñ…UÉ°èÅÈô€èìÍÑ…ÑÕÌèÌ¹ÍÑ…ÑÕÌô¤ì)ô¤ì)½¹ÍĞÁ…¥É¥¹ÑÑ•µÁÑÌ€ô¹•Ü5…ÀñÍÑÉ¥¹œ°¹Õµ‰•Émtø ¤ì)…ÁÀ¹Á½ÍĞ (€€ˆ½…Á¤½ØÄ½Í•ÍÍ¥½¹Ì¼é¥½Á…¥É¥¹œ½Á¡½¹”ˆ°(€É•ÅÕ¥É•UÍ•È°(€…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€€€ÑÉäì(€€€€€½¹ÍĞÌ€ô…İ…¥Ğƒİ:¶‰Ëkºwµç@€€€€€¹½‰©•Ğ¡ì¹…µ”èè¹ÍÑÉ¥¹œ ¤¹µ¥¸ Ä¤¹µ…à àÀ¤°Í•ÍÍ¥½¹%èè¹ÍÑÉ¥¹œ ¤¹ÕÕ¥ ¤ô¤(€€€€€€¹Á…ÉÍ”¡É•Ä¹‰½‘ä¤ì(€€€¥˜€ „¡…İ…¥Ğ½İ¹•ÉM•ÍÍ¥½¸¡Ø¹Í•ÍÍ¥½¹%°É•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%„¤¤¤(€€€€€É•ÑÕÉ¸É•Ì(€€€€€€€€¹ÍÑ…ÑÕÌ ĞÀĞ¤(€€€€€€€€¹©Í½¸¡ì•ÉÉ½Èèì½‘”è€‰9=Q}=U9ˆ°µ•ÍÍ…”è€‰M•ÍÍ¥½¸¹½Ğ™½Õ¹ˆôô¤ì(€€€½¹ÍĞ­•ä€ô¹•İÁ¥-•ä ¤°(€€€€€ÁÉ•™¥à€ô­•ä¹Í±¥” À°€ÄÈ¤ì(€€€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰%9MIP%9Q<…Á¥}­•åÌ¡ÕÍ•É}¥±Í•ÍÍ¥½¹}¥±¹…µ”±­•å}¡…Í ±ÁÉ•™¥à¤Y1UL Ä°È°Ì°Ğ°Ô¤IQUI9%9¥±¹…µ”±Í•ÍÍ¥½¹}¥±Á•Éµ¥ÍÍ¥½¹Ì±É•…Ñ•‘}…Ğˆ°(€€€€€mÉ•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%°Ø¹Í•ÍÍ¥½¹%°Ø¹¹…µ”°¡…Í¡-•ä¡­•ä¤°ÁÉ•™¥át°(€€€€¤ì(€€€É•Ì¹ÍÑ…ÑÕÌ ÈÀÄ¤¹©Í½¸¡ì(€€€€€…Á¥-•äèÉ½İÍlÁt°(€€€€€Í•É•Ğè­•ä°(€€€€€İ…É¹¥¹œè€‰½ÁäÑ¡¥Ì­•ä¹½Ü¸%Ğ…¹¹½Ğ‰”Í¡½İ¸……¥¸¸ˆ°(€€€ô¤ì(€ô…Ñ €¡”¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…ÁÀ¹•Ğ ˆ½…Á¤½ØÄ½…Á¤µ­•åÌˆ°É•ÅÕ¥É•UÍ•È°…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€ÑÉäì(€€€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰M1P¥±¹…µ”±Í•ÍÍ¥½¹}¥±ÁÉ•™¥à±Á•Éµ¥ÍÍ¥½¹Ì±É•…Ñ•‘}…Ğ±±…ÍÑ}ÕÍ•‘}…Ğ±É•Ù½­•‘}…ĞI=4…Á¥}­•åÌ]!IÕÍ•É}¥ôÄ=IH	dÉ•…Ñ•‘}…ĞMˆ°(€€€€€mÉ•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%‘t°(€€€€¤ì(€€€É•Ì¹©Í½¸¡ì…Á¥-•åÌèÉ½İÌô¤ì(€ô…Ñ €¡”¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…ÁÀ¹‘•±•Ñ” ˆ½…Á¤½ØÄ½…Á¤µ­•åÌ¼é¥ˆ°É•ÅÕ¥É•UÍ•È°…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€ÑÉäì(€€€½¹ÍĞÈ€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰UAQ…Á¥}­•åÌMPÉ•Ù½­•‘}…Ğõ¹½Ü ¤]!I¥ôÄ9ÕÍ•É}¥ôÈ9É•Ù½­•‘}…Ğ%L9U10ˆ°(€€€€€mMÑÉ¥¹œ¡É•Ä¹Á…É…µÌ¹¥¤°É•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%‘t°(€€€€¤ì(€€€¥˜€ …È¹É½İ½Õ¹Ğ¤(€€€€€É•ÑÕÉ¸É•Ì(€€€€€€€€¹ÍÑ…ÑÕÌ ĞÀĞ¤(€€€€€€€€¹©Í½¸¡ì•ÉÉ½Èèì½‘”è€‰9=Q}=U9ˆ°µ•ÍÍ…”è€‰A$­•ä¹½Ğ™½Õ¹ˆôô¤ì(€€€É•Ì¹ÍÑ…ÑÕÌ ÈÀĞ¤¹•¹ ¤ì(€ô…Ñ €¡”¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…ÁÀ¹Á½ÍĞ ˆ½…Á¤½ØÄ½µ•ÍÍ…•Ì½Í•¹ˆ°…Á¥-•åÕÑ °…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€ÑÉäì(€€€½¹ÍĞØ€ôè(€€€€€€¹½‰©•Ğ¡ì(€€€€€€€Í•ÍÍ¥½¹%èè¹ÍÑÉ¥¹œ ¤¹ÕÕ¥ ¤°(€€€€€€€Ñ¼èè¹ÍÑÉ¥¹œ ¤¹É••à ½ylÄ´åuq‘ìÜ°ÄÑô¼¤°(€€€€€€€ÑåÁ”èè¹±¥Ñ•É…° ‰Ñ•áĞˆ¤°(€€€€€€€µ•ÍÍ…”èè¹ÍÑÉ¥¹œ ¤¹µ¥¸ Ä¤¹µ…à ĞÀäØ¤°(€€€€€ô¤(€€€€€€¹Á…ÉÍ”¡É•Ä¹‰½‘ä¤ì(€€€½¹ÍĞ­•ä€ôÉ•Ì¹±½…±Ì¹…Á¥-•ä…Ìì(€€€€€ÕÍ•É}¥èÍÑÉ¥¹œì(€€€€€Í•ÍÍ¥½¹}¥èÍÑÉ¥¹œğ¹Õ±°ì(€€€ôì(€€€¥˜€¡­•ä¹Í•ÍÍ¥½¹}¥€˜˜­•ä¹Í•ÍÍ¥½¹}¥€„ôôØ¹Í•ÍÍ¥½¹%¤(€€€€€É•ÑÕÉ¸É•Ì¹ÍÑ…ÑÕÌ ĞÀÌ¤¹©Í½¸¡ì(€€€€€€€•ÉÉ½Èèì(€€€€€€€€€½‘”è€‰MMM%=9}=I	%8ˆ°(€€€€€€€€€µ•ÍÍ…”è€‰A$­•ä¥ÌÉ•ÍÑÉ¥Ñ•Ñ¼…¹½Ñ¡•ÈÍ•ÍÍ¥½¸ˆ°(€€€€€€€ô°(€€€€€ô¤ì(€€€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰M1PÍÑ…ÑÕÌI=4Í•ÍÍ¥½¹Ì]!I¥ôÄ9ÕÍ•É}¥ôÈˆ°(€€€€€mØ¹Í•ÍÍ¥½¹%°­•ä¹ÕÍ•É}¥‘t°(€€€€¤ì(€€€¥˜€ …É½İÍlÁt¤(€€€€€É•ÑÕÉ¸É•Ì(€€€€€€€€¹ÍÑ…ÑÕÌ ĞÀĞ¤(€€€€€€€€¹©Í½¸¡ì•ÉÉ½Èèì½‘”è€‰9=Q}=U9ˆ°µ•ÍÍ…”è€‰M•ÍÍ¥½¸¹½Ğ™½Õ¹ˆôô¤ì(€€€¥˜€¡É½İÍlÁt¹ÍÑ…ÑÕÌ€„ôô€‰½¹¹•Ñ•ˆ¤(€€€€€É•ÑÕÉ¸É•Ì¹ÍÑ…ÑÕÌ ĞÀä¤¹©Í½¸¡ì(€€€€€€€•ÉÉ½Èèì(€€€€€€€€€½‘”è€‰MMM%=9}9=Q}=99Qˆ°(€€€€€€€€€µ•ÍÍ…”è€‰½¹¹•ĞÑ¡”Í•ÍÍ¥½¸‰•™½É”Í•¹‘¥¹œˆ°(€€€€€€€ô°(€€€€€ô¤ì(€€€½¹ÍĞ¥‘•´€ôÉ•Ä¹¡•…‘•È ‰¥‘•µÁ½Ñ•¹äµ­•äˆ¤ü¹Í±¥” À°€ÈÀÀ¤ñğ¹Õ±°ì(€€€½¹ÍĞ¥¹Í•ÉÑ•€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰%9MIP%9Q<µ•ÍÍ…•Ì¡ÕÍ•É}¥±Í•ÍÍ¥½¹}¥±¥‘•µÁ½Ñ•¹å}­•ä±Ñ½}¹Õµ‰•È±ÑåÁ”±‰½‘ä±ÍÑ…ÑÕÌ¤Y1UL Ä°È°Ì°Ğ°Ñ•áĞœ°Ô°Í•¹‘¥¹œœ¤=8=91%P¡Í•ÍÍ¥½¹}¥±¥‘•µÁ½Ñ•¹å}­•ä¤<9=Q!%9IQUI9%9¥±ÍÑ…ÑÕÌˆ°(€€€€€m­•ä¹ÕÍ•É}¥°Ø¹Í•ÍÍ¥½¹%°¥‘•´°Ø¹Ñ¼°Ø¹µ•ÍÍ…•t°(€€€€¤ì(€€€¥˜€ …¥¹Í•ÉÑ•¹É½İ½Õ¹Ğ¤ì(€€€€€½¹ÍĞÁÉ•Ø€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€€€‰M1P¥±ÍÑ…ÑÕÌI=4µ•ÍÍ…•Ì]!IÍ•ÍÍ¥½¹}¥ôÄ9¥‘•µÁ½Ñ•¹å}­•äôÈˆ°(€€€€€€€mØ¹Í•ÍÍ¥½¹%°¥‘•µt°(€€€€€€¤ì(€€€€€É•ÑÕÉ¸É•Ì¹ÍÑ…ÑÕÌ ÈÀÀ¤¹©Í½¸¡ìµ•ÍÍ…”èÁÉ•Ø¹É½İÍlÁtô¤ì(€€€ô(€€€½¹ÍĞµÍœ€ô¥¹Í•ÉÑ•¹É½İÍlÁtì(€€€ÑÉäì(€€€€€½¹ÍĞÉ•ÍÕ±Ğ€ô…İ…¥ĞÁÉ½Ù¥‘•È¹Í•¹‘Q•áĞ¡Ø¹Í•ÍÍ¥½¹%°Ø¹Ñ¼°Ø¹µ•ÍÍ…”¤ì(€€€€€½¹ÍĞÕÁ‘…Ñ•€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€€€‰UAQµ•ÍÍ…•ÌMPÍÑ…ÑÕÌôÍ•¹Ğœ±ÁÉ½Ù¥‘•É}µ•ÍÍ…•}¥ôÈ±ÕÁ‘…Ñ•‘}…Ğõ¹½Ü ¤]!I¥ôÄIQUI9%9¥±ÍÑ…ÑÕÌ±ÁÉ½Ù¥‘•É}µ•ÍÍ…•}¥±É•…Ñ•‘}…Ğˆ°(€€€€€€€mµÍœ¹¥°É•ÍÕ±Ğ¹¥‘t°(€€€€€€¤ì(€€€€€É•Ì¹ÍÑ…ÑÕÌ ÈÀÈ¤¹©Í½¸¡ì(€€€€€€€µ•ÍÍ…”èÕÁ‘…Ñ•¹É½İÍlÁt°(€€€€€€€¹½Ñ”è€‰M•¹Ğµ•…¹Ì…•ÁÑ•‰äÑ¡”ÁÉ½Ù¥‘•Èì‘•±¥Ù•Éä½É•……É”Õ¹­¹½İ¸Õ¹Ñ¥°ÁÉ½Ù¥‘•È•Ù•¹ÑÌ½¹™¥É´Ñ¡•´¸ˆ°(€€€€€ô¤ì(€€€ô…Ñ €¡•ÉÈ¤ì(€€€€€…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€€€‰UAQµ•ÍÍ…•ÌMPÍÑ…ÑÕÌô™…¥±•œ±•ÉÉ½É}½‘”ôAI=Y%I}II=Hœ±ÕÁ‘…Ñ•‘}…Ğõ¹½Ü ¤]!I¥ôÄˆ°(€€€€€€€mµÍœ¹¥‘t°(€€€€€€¤ì(€€€€€Ñ¡É½Ü•ÉÈì(€€€ô(€ô…Ñ €¡”¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…ÁÀ¹•Ğ ˆ½…Á¤½ØÄ½µ•ÍÍ…•Ìˆ°É•ÅÕ¥É•UÍ•È°…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€ÑÉäì(€€€½¹ÍĞ±¥µ¥Ğ€ô5…Ñ ¹µ¥¸¡9Õµ‰•È¡É•Ä¹ÅÕ•Éä¹±¥µ¥Ğ¤ñğ€ÔÀ°€ÄÀÀ¤°(€€€€€‰•™½É”€ôÉ•Ä¹ÅÕ•Éä¹‰•™½É”€ü¹•Ü…Ñ”¡MÑÉ¥¹œ¡É•Ä¹ÅÕ•Éä¹‰•™½É”¤¤€è¹Õ±°ì(€€€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰M1P¥±Í•ÍÍ¥½¹}¥±Ñ½}¹Õµ‰•È±ÑåÁ”±ÍÑ…ÑÕÌ±ÁÉ½Ù¥‘•É}µ•ÍÍ…•}¥±•ÉÉ½É}½‘”±É•…Ñ•‘}…Ğ±ÕÁ‘…Ñ•‘}…ĞI=4µ•ÍÍ…•Ì]!IÕÍ•É}¥ôÄ9€ ÈèéÑ¥µ•ÍÑ…µÁÑè%L9U10=HÉ•…Ñ•‘}…ĞğÈ¤=IH	dÉ•…Ñ•‘}…ĞM1%5%P€Ìˆ°(€€€€€mÉ•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%°‰•™½É”°±¥µ¥Ñt°(€€€€¤ì(€€€É•Ì¹©Í½¸¡ìµ•ÍÍ…•ÌèÉ½İÌô¤ì(€ô…Ñ €¡”¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…ÁÀ¹•Ğ ˆ½…Á¤½ØÄ½µ•ÍÍ…•Ì¼é¥ˆ°É•ÅÕ¥É•UÍ•È°…Íå¹Œ€¡É•Ä°É•Ì°¹•áĞ¤€ôøì(€ÑÉäì(€€€½¹ÍĞìÉ½İÌô€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€€€€€‰M1P¥±Í•ÍÍ¥½¹}¥±Ñ½}¹Õµ‰•È±ÑåÁ”±ÍÑ…ÑÕÌ±ÁÉ½Ù¥‘•É}µ•ÍÍ…•}¥±•ÉÉ½É}½‘”±É•…Ñ•‘}…Ğ±ÕÁ‘…Ñ•‘}…ĞI=4µ•ÍÍ…•Ì]!I¥ôÄ9ÕÍ•É}¥ôÈˆ°(€€€€€mMÑÉ¥¹œ¡É•Ä¹Á…É…µÌ¹¥¤°É•Ä¹Í•ÍÍ¥½¸¹ÕÍ•É%‘t°(€€€€¤ì(€€€¥˜€ …É½İÍlÁt¤(€€€€€É•ÑÕÉ¸É•Ì(€€€€€€€€¹ÍÑ…ÑÕÌ ĞÀĞ¤(€€€€€€€€¹©Í½¸¡ì•ÉÉ½Èèì½‘”è€‰9=Q}=U9ˆ°µ•ÍÍ…”è€‰5•ÍÍ…”¹½Ğ™½Õ¹ˆôô¤ì(€€€É•Ì¹©Í½¸¡ìµ•ÍÍ…”èÉ½İÍlÁtô¤ì(€ô…Ñ €¡”¤ì(€€€¹•áĞ¡”¤ì(€ô)ô¤ì)…ÁÀ¹•Ğ ˆ½‘½Ì½½Á•¹…Á¤¹å…µ°ˆ°€¡}É•Ä°É•Ì¤€ôø(€É•Ì¹ÑåÁ” ‰å…µ°ˆ¤¹Í•¹‘¥±”¡Á…Ñ ¹É•Í½±Ù” ‰‘½Ì½½Á•¹…Á¤¹å…µ°ˆ¤¤°(¤ì)…ÁÀ¹ÕÍ”¡•áÁÉ•ÍÌ¹ÍÑ…Ñ¥Œ ‰…ÁÁÌ½‘…Í¡‰½…É½‘¥ÍĞˆ¤¤ì)…ÁÀ¹•Ğ ½x ü…p½…Á¥p¼¤¸¨¼°€¡}É•Ä°É•Ì°¹•áĞ¤€ôø(€É•Ì¹Í•¹‘¥±” ‰¥¹‘•à¹¡Ñµ°ˆ°ìÉ½½Ğè€‰…ÁÁÌ½‘…Í¡‰½…É½‘¥ÍĞˆô°€¡•ÉÈ¤€ôøì(€€€¥˜€¡•ÉÈ¤¹•áĞ ¤ì(€ô¤°(¤ì)…ÁÀ¹ÕÍ” (€€ (€€€•ÉÈè…¹ä°(€€€}É•Äè•áÁÉ•ÍÌ¹I•ÅÕ•ÍĞ°(€€€É•Ìè•áÁÉ•ÍÌ¹I•ÍÁ½¹Í”°(€€€}¹•áĞè•áÁÉ•ÍÌ¹9•áÑÕ¹Ñ¥½¸°(€€¤€ôøì(€€€¥˜€¡•ÉÈ¥¹ÍÑ…¹•½˜è¹i½‘ÉÉ½È¤(€€€€€É•ÑÕÉ¸É•Ì¹ÍÑ…ÑÕÌ ĞÀÀ¤¹©Í½¸¡ì(€€€€€€€•ÉÉ½Èèì(€€€€€€€€€½‘”è€‰Y1%Q%=9}II=Hˆ°(€€€€€€€€€µ•ÍÍ…”è€‰I•ÅÕ•ÍĞÙ…±¥‘…Ñ¥½¸™…¥±•ˆ°(€€€€€€€€€‘•Ñ…¥±Ìè•ÉÈ¹¥ÍÍÕ•Ì¹µ…À ¡¤¤€ôø€¡ì(€€€€€€€€€€€Á…Ñ è¤¹Á…Ñ °(€€€€€€€€€€€µ•ÍÍ…”è¤¹µ•ÍÍ…”°(€€€€€€€€€ô¤¤°(€€€€€€€ô°(€€€€€ô¤ì(€€€½¹Í½±”¹•ÉÉ½È ‰É•ÅÕ•ÍÑ}™…¥±•ˆ°•ÉÈü¹µ•ÍÍ…”€üü€‰Õ¹­¹½İ¸ˆ¤ì(€€€É•Ì(€€€€€€¹ÍÑ…ÑÕÌ ÔÀÀ¤(€€€€€€¹©Í½¸¡ì•ÉÉ½Èèì½‘”è€‰%9QI91}II=Hˆ°µ•ÍÍ…”è€‰I•ÅÕ•ÍĞ™…¥±•ˆôô¤ì(€€€Ù½¥}¹•áĞì(€ô°(¤ì)½¹ÍĞÁ½ÉĞ€ô9Õµ‰•È¡ÁÉ½•ÍÌ¹•¹Ø¹A=IP€üü€ÌÀÀÀ¤°(€¡½ÍĞ€ôÁÉ½•ÍÌ¹•¹Ø¹!=MP€üü€ˆÄÈÜ¸À¸À¸Äˆì)¥˜€ (€ÁÉ½•ÍÌ¹•¹Ø¹9=}9X€ôôô€‰ÁÉ½‘ÕÑ¥½¸ˆ€˜˜(€€ …ÁÉ½•ÍÌ¹•¹Ø¹MMM%=9}MIPñğ(€€€ÁÉ½•ÍÌ¹•¹Ø¹MMM%=9}MIP¹±•¹Ñ €ğ€ÌÈñğ(€€€€…ÁÉ½•ÍÌ¹•¹Ø¹A%}-e}AAAHñğ(€€€ÁÉ½•ÍÌ¹•¹Ø¹A%}-e}AAAH¹±•¹Ñ €ğ€ÌÈ¤(¤(€Ñ¡É½Ü¹•ÜÉÉ½È (€€€€‰AÉ½‘ÕÑ¥½¸É•ÅÕ¥É•ÌMMM%=9}MIP…¹A%}-e}AAAH½˜…Ğ±•…ÍĞ€ÌÈ¡…É…Ñ•ÉÌˆ°(€€¤ì)…İ…¥Ğµ¥É…Ñ” ¤ì)½¹ÍĞ…ÕÑ¡I½½Ğ€ôÁ…Ñ ¹É•Í½±Ù” (€ÁÉ½•ÍÌ¹•¹Ø¹]!QMAA}UQ!}%H€üü€ˆ¸½‘…Ñ„½İ¡…ÑÍ…ÁÀˆ°(¤ì)½¹ÍĞÍ…Ù•€ô…İ…¥ĞÁ½½°¹ÅÕ•Éä (€€‰M1P¥I=4Í•ÍÍ¥½¹Ì]!IÍÑ…ÑÕÌ%8€ ½¹¹•Ñ•œ°½¹¹•Ñ¥¹œœ°‘¥Í½¹¹•Ñ•œ¤ˆ°(¤ì)™½È€¡½¹ÍĞÉ½Ü½˜Í…Ù•¹É½İÌ¤ì(€ÑÉäì(€€€…İ…¥Ğ…•ÍÌ¡Á…Ñ ¹©½¥¸¡…ÕÑ¡I½½Ğ°É½Ü¹¥°€‰É•‘Ì¹©Í½¸ˆ¤¤ì(€€€Ù½¥ÁÉ½Ù¥‘•È¹½¹¹•Ğ¡É½Ü¹¥°€¡•Ù•¹Ğ¤€ôøì(€€€€€¥˜€¡•Ù•¹Ğ¹ÑåÁ”€ôôô€‰ÍÑ…ÑÕÌˆ¤ÁÕ‰±¥Í¡M•ÍÍ¥½¸¡É½Ü¹¥°•Ù•¹Ğ¤ì(€€€ô¤ì(€ô…Ñ ì(€€€€¼¨¹¼Í…Ù•…ÕÑ ÍÑ…Ñ”Ñ¼É•½Ù•ÈìÉ•ÅÕ¥É”•áÁ±¥¥ĞÁ…¥É¥¹œ€¨¼(€ô)ô)½¹ÍĞÍ•ÉÙ•È€ô…ÁÀ¹±¥ÍÑ•¸¡Á½ÉĞ°¡½ÍĞ°€ ¤€ôø(€½¹Í½±”¹±½œ¡AÕ™™àA$±¥ÍÑ•¹¥¹œ½¸€‘í¡½ÍÑôè‘íÁ½ÉÑõ€¤°(¤ì)…Íå¹Œ™Õ¹Ñ¥½¸Í¡ÕÑ‘½İ¸ ¤ì(€…İ…¥Ğ¹•ÜAÉ½µ¥Í”ñÙ½¥ø ¡É•Í½±Ù”¤€ôøÍ•ÉÙ•È¹±½Í”  ¤€ôøÉ•Í½±Ù” ¤¤¤ì(€…İ…¥ĞÁÉ½Ù¥‘•È¹±½Í•±° ¤ì(€…İ…¥ĞÁ½½°¹•¹ ¤ì)ô)ÁÉ½•ÍÌ¹½¸ ‰M%QI4ˆ°Í¡ÕÑ‘½İ¸¤ì)ÁÉ½•ÍÌ¹½¸ ‰M%%9Pˆ°Í¡ÕÑ‘½İ¸¤ì(
+import "dotenv/config";
+import { access } from "node:fs/promises";
+import path from "node:path";
+import express from "express";
+import session from "express-session";
+import pgSession from "connect-pg-simple";
+import cors from "cors";
+import helmet from "helmet";
+import rateLimit from "express-rate-limit";
+import bcrypt from "bcryptjs";
+import { z } from "zod";
+import { pool, migrate, audit } from "./db.js";
+import { requireUser, apiKeyAuth, newApiKey, hashKey } from "./auth.js";
+import { BaileysProvider } from "./provider.js";
+const app = express(),
+  PgStore = pgSession(session),
+  provider = new BaileysProvider();
+const originList = (
+  process.env.ALLOWED_ORIGINS ?? "http://127.0.0.1:3000"
+).split(",");
+app.disable("x-powered-by");
+app.set("trust proxy", process.env.TRUST_PROXY === "true" ? 1 : false);
+app.use(helmet({ contentSecurityPolicy: false }));
+app.use(cors({ origin: originList, credentials: true }));
+app.use(express.json({ limit: "128kb" }));
+app.use(
+  session({
+    name: "puffx.sid",
+    store: new PgStore({ pool, createTableIfMissing: true }),
+    secret:
+      process.env.SESSION_SECRET ?? "development-only-change-this-secret-now",
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      httpOnly: true,
+      sameSite: "lax",
+      secure: process.env.COOKIE_SECURE === "true",
+      maxAge: 8 * 60 * 60 * 1000,
+    },
+  }),
+);
+const authLimit = rateLimit({
+  windowMs: 15 * 60_000,
+  limit: 10,
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+const apiLimit = rateLimit({
+  windowMs: 60_000,
+  limit: 60,
+  standardHeaders: true,
+  legacyHeaders: false,
+});
+app.get("/api/v1/health", (_q, r) => r.json({ status: "ok" }));
+app.get("/api/v1/ready", async (_q, r) => {
+  try {
+    await pool.query("SELECT 1");
+    r.json({ status: "ready", database: "ok" });
+  } catch {
+    r.status(503).json({ status: "not_ready" });
+  }
+});
+app.post("/api/v1/auth/register", authLimit, async (req, res, next) => {
+  try {
+    const v = z
+      .object({
+        email: z.string().email().max(254),
+        password: z.string().min(12).max(128),
+      })
+      .parse(req.body);
+    const hash = await bcrypt.hash(v.password, 12);
+    const { rows } = await pool.query(
+      "INSERT INTO users(email,password_hash) VALUES(lower($1),$2) RETURNING id,email,role",
+      [v.email, hash],
+    );
+    req.session.userId = rows[0].id;
+    req.session.role = rows[0].role;
+    res.status(201).json({ user: { id: rows[0].id, email: rows[0].email } });
+  } catch (e: any) {
+    if (e?.code === "23505")
+      return res.status(409).json({
+        error: { code: "EMAIL_EXISTS", message: "Account already exists" },
+      });
+    next(e);
+  }
+});
+app.post("/api/v1/auth/login", authLimit, async (req, res, next) => {
+  try {
+    const v = z
+      .object({ email: z.string().email(), password: z.string().min(1) })
+      .parse(req.body);
+    const { rows } = await pool.query(
+      "SELECT id,email,password_hash,role FROM users WHERE email=lower($1)",
+      [v.email],
+    );
+    if (!rows[0] || !(await bcrypt.compare(v.password, rows[0].password_hash)))
+      return res.status(401).json({
+        error: {
+          code: "INVALID_CREDENTIALS",
+          message: "Email or password is incorrect",
+        },
+      });
+    req.session.regenerate((err) => {
+      if (err) return next(err);
+      req.session.userId = rows[0].id;
+      req.session.role = rows[0].role;
+      res.json({ user: { id: rows[0].id, email: rows[0].email } });
+    });
+  } catch (e) {
+    next(e);
+  }
+});
+app.post("/api/v1/auth/logout", requireUser, (req, res) =>
+  req.session.destroy(() => res.status(204).end()),
+);
+app.get("/api/v1/auth/me", requireUser, async (req, res) => {
+  const { rows } = await pool.query(
+    "SELECT id,email,role,created_at FROM users WHERE id=$1",
+    [req.session.userId],
+  );
+  res.json({ user: rows[0] });
+});
+app.use("/api/v1", apiLimit);
+app.post("/api/v1/sessions", requireUser, async (req, res, next) => {
+  try {
+    const v = z
+      .object({ name: z.string().trim().min(1).max(80) })
+      .parse(req.body);
+    const { rows } = await pool.query(
+      "INSERT INTO sessions(user_id,name) VALUES($1,$2) RETURNING *",
+      [req.session.userId, v.name],
+    );
+    await audit(req.session.userId, "session.created", rows[0].id, req.ip);
+    res.status(201).json({ session: rows[0] });
+  } catch (e) {
+    next(e);
+  }
+});
+app.get("/api/v1/sessions", requireUser, async (req, res, next) => {
+  try {
+    const { rows } = await pool.query(
+      "SELECT id,name,status,phone,last_connected_at,created_at FROM sessions WHERE user_id=$1 ORDER BY created_at DESC",
+      [req.session.userId],
+    );
+    res.json({ sessions: rows });
+  } catch (e) {
+    next(e);
+  }
+});
+app.get("/api/v1/sessions/:id", requireUser, async (req, res, next) => {
+  try {
+    const { rows } = await pool.query(
+      "SELECT id,name,status,phone,last_connected_at,created_at FROM sessions WHERE id=$1 AND user_id=$2",
+      [String(req.params.id), req.session.userId],
+    );
+    if (!rows[0])
+      return res
+        .status(404)
+        .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
+    res.json({ session: rows[0] });
+  } catch (e) {
+    next(e);
+  }
+});
+async function ownerSession(id: string, user: string) {
+  const r = await pool.query(
+    "SELECT id,status FROM sessions WHERE id=$1 AND user_id=$2",
+    [id, user],
+  );
+  return r.rows[0] as { id: string; status: string } | undefined;
+}
+function publishSession(id: string, event: any) {
+  void pool.query(
+    "UPDATE sessions SET status=$2,phone=COALESCE($3,phone),last_connected_at=CASE WHEN $2='connected' THEN now() ELSE last_connected_at END,updated_at=now() WHERE id=$1",
+    [id, event.status, event.phone ?? null],
+  );
+}
+app.post(
+  "/api/v1/sessions/:id/pairing/qr",
+  requireUser,
+  async (req, res, next) => {
+    try {
+      const s = await ownerSession(String(req.params.id), req.session.userId!);
+      if (!s)
+        return res
+          .status(404)
+          .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
+      await pool.query("UPDATE sessions SET status='connecting' WHERE id=$1", [
+        s.id,
+      ]);
+      await provider.connect(s.id, (event) => {
+        if (event.type === "qr") {
+          void import("qrcode")
+            .then((q) => q.default.toDataURL(event.qr))
+            .then((qr) => {
+              qrCache.set(s.id, qr);
+              setTimeout(() => qrCache.delete(s.id), 60_000).unref();
+            });
+        } else publishSession(s.id, event);
+      });
+      const existing = qrCache.get(s.id);
+      if (existing) return res.json({ status: "qr", qrCodeDataUrl: existing });
+      res.status(202).json({
+        status: "connecting",
+        message:
+          "Pairing started; poll GET /api/v1/sessions/:id/pairing/qr for the QR image",
+      });
+    } catch (e) {
+      next(e);
+    }
+  },
+);
+const qrCache = new Map<string, string>();
+app.get("/api/v1/sessions/:id/pairing/qr", requireUser, async (req, res) => {
+  const s = await ownerSession(String(req.params.id), req.session.userId!);
+  if (!s)
+    return res
+      .status(404)
+      .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
+  const qr = qrCache.get(s.id);
+  res.json(qr ? { status: "qr", qrCodeDataUrl: qr } : { status: s.status });
+});
+const pairingAttempts = new Map<string, number[]>();
+app.post(
+  "/api/v1/sessions/:id/pairing/phone",
+  requireUser,
+  async (req, res, next) => {
+    try {
+      const s = await ownerSession(String(req.params.id), req.session.userId!);
+      if (!s)
+        return res
+          .status(404)
+          .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
+      const v = z
+        .object({ phone: z.string().regex(/^\+?[1-9]\d{7,14}$/) })
+        .parse(req.body);
+      const now = Date.now(),
+        arr = (pairingAttempts.get(req.session.userId!) ?? []).filter(
+          (t) => now - t < 3600000,
+        );
+      if (arr.length >= 5)
+        return res.status(429).json({
+          error: {
+            code: "PAIRING_RATE_LIMIT",
+            message: "Maximum five pairing attempts per hour",
+          },
+        });
+      arr.push(now);
+      pairingAttempts.set(req.session.userId!, arr);
+      await provider.connect(s.id, (e) => {
+        if (e.type === "status") publishSession(s.id, e);
+      });
+      const code = await provider.requestPairingCode(
+        s.id,
+        v.phone.replace("+", ""),
+      );
+      res.json({ status: "pairing", pairingCode: code, expiresInSeconds: 60 });
+    } catch (e) {
+      next(e);
+    }
+  },
+);
+app.post(
+  "/api/v1/sessions/:id/reconnect",
+  requireUser,
+  async (req, res, next) => {
+    try {
+      const s = await ownerSession(String(req.params.id), req.session.userId!);
+      if (!s)
+        return res
+          .status(404)
+          .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
+      await provider.connect(s.id, (e) => {
+        if (e.type === "status") publishSession(s.id, e);
+      });
+      res.status(202).json({ status: "connecting" });
+    } catch (e) {
+      next(e);
+    }
+  },
+);
+app.post("/api/v1/sessions/:id/logout", requireUser, async (req, res, next) => {
+  try {
+    const s = await ownerSession(String(req.params.id), req.session.userId!);
+    if (!s)
+      return res
+        .status(404)
+        .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
+    await provider.disconnect(s.id, true);
+    await pool.query(
+      "UPDATE sessions SET status='logged_out',updated_at=now() WHERE id=$1",
+      [s.id],
+    );
+    res.json({ status: "logged_out" });
+  } catch (e) {
+    next(e);
+  }
+});
+app.delete("/api/v1/sessions/:id", requireUser, async (req, res, next) => {
+  try {
+    const s = await ownerSession(String(req.params.id), req.session.userId!);
+    if (!s)
+      return res
+        .status(404)
+        .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
+    await provider.disconnect(s.id, true);
+    await pool.query("DELETE FROM sessions WHERE id=$1", [s.id]);
+    res.status(204).end();
+  } catch (e) {
+    next(e);
+  }
+});
+app.post("/api/v1/api-keys", requireUser, async (req, res, next) => {
+  try {
+    const v = z
+      .object({ name: z.string().min(1).max(80), sessionId: z.string().uuid() })
+      .parse(req.body);
+    if (!(await ownerSession(v.sessionId, req.session.userId!)))
+      return res
+        .status(404)
+        .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
+    const key = newApiKey(),
+      prefix = key.slice(0, 12);
+    const { rows } = await pool.query(
+      "INSERT INTO api_keys(user_id,session_id,name,key_hash,prefix) VALUES($1,$2,$3,$4,$5) RETURNING id,name,session_id,permissions,created_at",
+      [req.session.userId, v.sessionId, v.name, hashKey(key), prefix],
+    );
+    res.status(201).json({
+      apiKey: rows[0],
+      secret: key,
+      warning: "Copy this key now. It cannot be shown again.",
+    });
+  } catch (e) {
+    next(e);
+  }
+});
+app.get("/api/v1/api-keys", requireUser, async (req, res, next) => {
+  try {
+    const { rows } = await pool.query(
+      "SELECT id,name,session_id,prefix,permissions,created_at,last_used_at,revoked_at FROM api_keys WHERE user_id=$1 ORDER BY created_at DESC",
+      [req.session.userId],
+    );
+    res.json({ apiKeys: rows });
+  } catch (e) {
+    next(e);
+  }
+});
+app.delete("/api/v1/api-keys/:id", requireUser, async (req, res, next) => {
+  try {
+    const r = await pool.query(
+      "UPDATE api_keys SET revoked_at=now() WHERE id=$1 AND user_id=$2 AND revoked_at IS NULL",
+      [String(req.params.id), req.session.userId],
+    );
+    if (!r.rowCount)
+      return res
+        .status(404)
+        .json({ error: { code: "NOT_FOUND", message: "API key not found" } });
+    res.status(204).end();
+  } catch (e) {
+    next(e);
+  }
+});
+app.post("/api/v1/messages/send", apiKeyAuth, async (req, res, next) => {
+  try {
+    const v = z
+      .object({
+        sessionId: z.string().uuid(),
+        to: z.string().regex(/^[1-9]\d{7,14}$/),
+        type: z.literal("text"),
+        message: z.string().min(1).max(4096),
+      })
+      .parse(req.body);
+    const key = res.locals.apiKey as {
+      user_id: string;
+      session_id: string | null;
+    };
+    if (key.session_id && key.session_id !== v.sessionId)
+      return res.status(403).json({
+        error: {
+          code: "SESSION_FORBIDDEN",
+          message: "API key is restricted to another session",
+        },
+      });
+    const { rows } = await pool.query(
+      "SELECT status FROM sessions WHERE id=$1 AND user_id=$2",
+      [v.sessionId, key.user_id],
+    );
+    if (!rows[0])
+      return res
+        .status(404)
+        .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
+    if (rows[0].status !== "connected")
+      return res.status(409).json({
+        error: {
+          code: "SESSION_NOT_CONNECTED",
+          message: "Connect the session before sending",
+        },
+      });
+    const idem = req.header("idempotency-key")?.slice(0, 200) || null;
+    const inserted = await pool.query(
+      "INSERT INTO messages(user_id,session_id,idempotency_key,to_number,type,body,status) VALUES($1,$2,$3,$4,'text',$5,'sending') ON CONFLICT(session_id,idempotency_key) DO NOTHING RETURNING id,status",
+      [key.user_id, v.sessionId, idem, v.to, v.message],
+    );
+    if (!inserted.rowCount) {
+      const prev = await pool.query(
+        "SELECT id,status FROM messages WHERE session_id=$1 AND idempotency_key=$2",
+        [v.sessionId, idem],
+      );
+      return res.status(200).json({ message: prev.rows[0] });
+    }
+    const msg = inserted.rows[0];
+    try {
+      const result = await provider.sendText(v.sessionId, v.to, v.message);
+      const updated = await pool.query(
+        "UPDATE messages SET status='sent',provider_message_id=$2,updated_at=now() WHERE id=$1 RETURNING id,status,provider_message_id,created_at",
+        [msg.id, result.id],
+      );
+      res.status(202).json({
+        message: updated.rows[0],
+        note: "Sent means accepted by the provider; delivery/read are unknown until provider events confirm them.",
+      });
+    } catch (err) {
+      await pool.query(
+        "UPDATE messages SET status='failed',error_code='PROVIDER_ERROR',updated_at=now() WHERE id=$1",
+        [msg.id],
+      );
+      throw err;
+    }
+  } catch (e) {
+    next(e);
+  }
+});
+app.get("/api/v1/messages", requireUser, async (req, res, next) => {
+  try {
+    const limit = Math.min(Number(req.query.limit) || 50, 100),
+      before = req.query.before ? new Date(String(req.query.before)) : null;
+    const { rows } = await pool.query(
+      "SELECT id,session_id,to_number,type,status,provider_message_id,error_code,created_at,updated_at FROM messages WHERE user_id=$1 AND ($2::timestamptz IS NULL OR created_at<$2) ORDER BY created_at DESC LIMIT $3",
+      [req.session.userId, before, limit],
+    );
+    res.json({ messages: rows });
+  } catch (e) {
+    next(e);
+  }
+});
+app.get("/api/v1/messages/:id", requireUser, async (req, res, next) => {
+  try {
+    const { rows } = await pool.query(
+      "SELECT id,session_id,to_number,type,status,provider_message_id,error_code,created_at,updated_at FROM messages WHERE id=$1 AND user_id=$2",
+      [String(req.params.id), req.session.userId],
+    );
+    if (!rows[0])
+      return res
+        .status(404)
+        .json({ error: { code: "NOT_FOUND", message: "Message not found" } });
+    res.json({ message: rows[0] });
+  } catch (e) {
+    next(e);
+  }
+});
+app.get("/docs/openapi.yaml", (_req, res) =>
+  res.type("yaml").sendFile(path.resolve("docs/openapi.yaml")),
+);
+app.use(express.static("apps/dashboard/dist"));
+app.get(/^(?!\/api\/).*/, (_req, res, next) =>
+  res.sendFile("index.html", { root: "apps/dashboard/dist" }, (err) => {
+    if (err) next();
+  }),
+);
+app.use(
+  (
+    err: any,
+    _req: express.Request,
+    res: express.Response,
+    _next: express.NextFunction,
+  ) => {
+    if (err instanceof z.ZodError)
+      return res.status(400).json({
+        error: {
+          code: "VALIDATION_ERROR",
+          message: "Request validation failed",
+          details: err.issues.map((i) => ({
+            path: i.path,
+            message: i.message,
+          })),
+        },
+      });
+    console.error("request_failed", err?.message ?? "unknown");
+    res
+      .status(500)
+      .json({ error: { code: "INTERNAL_ERROR", message: "Request failed" } });
+    void _next;
+  },
+);
+const port = Number(process.env.PORT ?? 3000),
+  host = process.env.HOST ?? "127.0.0.1";
+if (
+  process.env.NODE_ENV === "production" &&
+  (!process.env.SESSION_SECRET ||
+    process.env.SESSION_SECRET.length < 32 ||
+    !process.env.API_KEY_PEPPER ||
+    process.env.API_KEY_PEPPER.length < 32)
+)
+  throw new Error(
+    "Production requires SESSION_SECRET and API_KEY_PEPPER of at least 32 characters",
+  );
+await migrate();
+const authRoot = path.resolve(
+  process.env.WHATSAPP_AUTH_DIR ?? "./data/whatsapp",
+);
+const saved = await pool.query(
+  "SELECT id FROM sessions WHERE status IN ('connected','connecting','disconnected')",
+);
+for (const row of saved.rows) {
+  try {
+    await access(path.join(authRoot, row.id, "creds.json"));
+    void provider.connect(row.id, (event) => {
+      if (event.type === "status") publishSession(row.id, event);
+    });
+  } catch {
+    /* no saved auth state to recover; require explicit pairing */
+  }
+}
+const server = app.listen(port, host, () =>
+  console.log(`Puffx API listening on ${host}:${port}`),
+);
+async function shutdown() {
+  await new Promise<void>((resolve) => server.close(() => resolve()));
+  await provider.closeAll();
+  await pool.end();
+}
+process.on("SIGTERM", shutdown);
+process.on("SIGINT", shutdown);
