@@ -65,7 +65,13 @@ The dashboard and API are intended to be deployed on the same origin. Do not put
 
 ## Send a text message
 
-The following example uses Bash, WSL, or Git Bash. Set these values in the same terminal where you run the command:
+These three `PUFFX_*` variables belong to the **client terminal or backend that calls the API**. They are separate from the gateway's `.env` settings:
+
+- `PUFFX_BASE_URL`: where the gateway is reachable. Use `http://127.0.0.1:3000` only when the caller runs on the same computer as the local Docker gateway. For a remote server use its HTTPS address, such as `https://gateway.example.com`. `127.0.0.1` on another machine points back to that other machine.
+- `PUFFX_API_KEY`: in the dashboard, open a connected session, click **Create API key**, and copy the secret immediately. It is displayed once. If it is lost, revoke it and create a new key.
+- `PUFFX_SESSION_ID`: use **Copy ID** on the matching session card. Each API key is tied to the session selected when the key was created.
+
+The following example uses Bash, WSL, or Git Bash. Replace the sample key and session ID with the values above:
 
 ```sh
 export PUFFX_BASE_URL="http://127.0.0.1:3000"
@@ -84,6 +90,31 @@ curl --connect-timeout 5 --max-time 20 -X POST "$PUFFX_BASE_URL/api/v1/messages/
 
 The API returns `202` when the provider accepts the message. That does **not** confirm delivery or read status. See [API reference](docs/api-reference.md) for PHP, Python, Node.js, and idempotency examples.
 
+### Windows PowerShell example
+
+PowerShell uses `$env:NAME` to set environment variables for the current terminal. Paste your real API key and session ID locally; do not share them or commit them:
+
+```powershell
+$env:PUFFX_BASE_URL = "http://127.0.0.1:3000"
+$env:PUFFX_API_KEY = "paste-your-api-key"
+$env:PUFFX_SESSION_ID = "paste-session-uuid"
+
+$body = @{
+  sessionId = $env:PUFFX_SESSION_ID
+  to = "919876543210"
+  type = "text"
+  message = "Hello from Puffx!"
+} | ConvertTo-Json -Compress
+
+Invoke-RestMethod -Method Post `
+  -Uri "$($env:PUFFX_BASE_URL)/api/v1/messages/send" `
+  -Headers @{ Authorization = "Bearer $($env:PUFFX_API_KEY)" } `
+  -ContentType "application/json" `
+  -Body $body
+```
+
+For a deployed VPS, change `PUFFX_BASE_URL` to `https://gateway.example.com`. Keep API keys in server-side environment variables or a secret manager, never in a frontend/browser app.
+
 ## Run locally for development
 
 1. Install Node.js 20.19+ and npm.
@@ -101,16 +132,23 @@ The API returns `202` when the provider accepts the message. That does **not** c
 
 See [local installation](docs/installation.md) for more detail.
 
+## Where can I host this?
+
+Use a Linux VPS or cloud VM where you control Docker Compose, persistent disk, DNS, and firewall rules. Examples include a [Hostinger Ubuntu VPS with Docker](https://www.hostinger.com/support/8306612-how-to-use-the-docker-vps-template-at-hostinger/), a [DigitalOcean Docker Droplet](https://docs.digitalocean.com/products/marketplace/catalog/docker/), a [Hetzner Cloud server](https://docs.hetzner.com/cloud/servers/overview/), or an [AWS Lightsail VM](https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-faq-instances.html). These are examples, not required providers; any VPS that meets the requirements can work.
+
+The app needs an always-running Node process, PostgreSQL, a persistent writable volume for WhatsApp login state, and outbound WebSocket access. Ordinary shared/cPanel hosting, static website hosting, and ephemeral serverless functions usually do not provide the process and storage model this app needs. A local computer is fine for development; other people can only reach it if you deliberately expose it through a secure network tunnel or domain.
+
 ## Public server deployment
 
 For a VPS, point your domain to the server and put the gateway behind an HTTPS reverse proxy. The Compose file binds port 3000 to `127.0.0.1`, so the API is not directly exposed to the internet.
 
-1. Install Docker Compose, configure DNS for your domain, and clone this repository on the VPS.
-2. Copy `.env.example` to `.env`; set unique random `POSTGRES_PASSWORD`, `SESSION_SECRET`, and `API_KEY_PEPPER` values.
-3. Set `PUBLIC_BASE_URL=https://your-domain.example` and `COOKIE_SECURE=true` in `.env`.
-4. Configure Nginx or another reverse proxy with a valid TLS certificate, forwarding HTTPS requests to `127.0.0.1:3000`. The sample config is in [`docker/nginx.conf`](docker/nginx.conf).
-5. Run `docker compose up -d --build`, then verify `https://your-domain.example/api/v1/ready` returns `ready`.
-6. Back up both the PostgreSQL database and the `whatsapp_data` volume. Keep the DB and auth files private; expose only the HTTPS dashboard/API.
+1. Create a Linux VPS (Ubuntu LTS is a straightforward option) with Docker Engine and Docker Compose. Connect over SSH. Some providers offer an Ubuntu image with Docker already installed; otherwise follow the [official Docker Engine installation guide](https://docs.docker.com/engine/install/ubuntu/).
+2. Point a DNS `A` record such as `gateway.example.com` to the VPS IPv4 address. Allow SSH (22) for administration and HTTP/HTTPS (80/443) for the web reverse proxy in the provider firewall.
+3. Clone this repository on the VPS, copy `.env.example` to `.env`, and set unique random `POSTGRES_PASSWORD`, `SESSION_SECRET`, and `API_KEY_PEPPER` values. Keep `.env` private.
+4. Set `PUBLIC_BASE_URL=https://gateway.example.com` and `COOKIE_SECURE=true` in `.env`.
+5. Configure Nginx or another reverse proxy with a valid TLS certificate, forwarding HTTPS requests to `127.0.0.1:3000`. The sample config is in [`docker/nginx.conf`](docker/nginx.conf). TLS certificates can be provisioned with Certbot; see the [VPS deployment guide](docs/vps-deployment.md).
+6. From the repository folder, run `docker compose up -d --build`, then verify `https://gateway.example.com/api/v1/ready` returns `ready`.
+7. Open `https://gateway.example.com` in a browser and follow [First-time setup](#first-time-setup). Back up both PostgreSQL and the `whatsapp_data` volume. Keep the DB and auth files private; expose only the HTTPS dashboard/API.
 
 See [Docker deployment](docs/docker-deployment.md) and [VPS deployment](docs/vps-deployment.md) for proxy and backup examples. Do not invite users to a public deployment until you have reviewed [security notes](docs/security.md), configured HTTPS and strong secrets, and restricted access as needed.
 
