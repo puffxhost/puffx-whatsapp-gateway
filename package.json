@@ -1,0 +1,53 @@
+{
+  "name": "puffx-whatsapp-gateway",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "dev": "concurrently -k \"tsx watch apps/api/src/index.ts\" \"npm --prefix apps/dashboard run dev -- --host 127.0.0.1\"",
+    "compile": "tsc -p tsconfig.json",
+    "build": "npm run compile && npm --prefix apps/dashboard run build",
+    "start": "node dist/apps/api/src/index.js",
+    "typecheck": "tsc --noEmit -p tsconfig.json && npm --prefix apps/dashboard run typecheck",
+    "format": "prettier --write \"apps/**/*.{ts,tsx,js,json,css,html}\" \"*.{json,js,ts,yml,yaml,md}\" \".github/**/*.{yml,yaml}\" \"docs/**/*.{md,yaml}\"",
+    "format:check": "prettier --check \"apps/**/*.{ts,tsx,js,json,css,html}\" \"*.{json,js,ts,yml,yaml,md}\" \".github/**/*.{yml,yaml}\" \"docs/**/*.{md,yaml}\"",
+    "test": "npm run compile && node --test dist/tests/*.test.js",
+    "lint": "eslint apps/api/src apps/dashboard/src",
+    "db:migrate": "tsx apps/api/src/migrate.ts"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "7.0.0-rc14",
+    "bcryptjs": "^3.0.2",
+    "connect-pg-simple": "^10.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "express-session": "^1.18.2",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "pg": "^8.16.3",
+    "pino": "^9.9.0",
+    "qrcode": "^1.5.4",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/connect-pg-simple": "^7.0.3",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/express-session": "^1.18.2",
+    "@types/node": "^24.8.1",
+    "@types/pg": "^8.15.5",
+    "@types/qrcode": "^1.5.5",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.38.0",
+    "prettier": "^3.9.10",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.72.1"
+  }
+}

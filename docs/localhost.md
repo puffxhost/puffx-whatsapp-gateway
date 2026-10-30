@@ -1,0 +1,3 @@
+# Localhost development
+
+The API binds to `127.0.0.1:3000` and the Vite dashboard to `127.0.0.1:5173` on Windows, Linux, and macOS. Install PostgreSQL 14+ and create a database/user matching `DATABASE_URL`, or run only the database with `docker compose up -d db`. Copy `.env.example` to `.env`, update secrets, run `npm install`, `npm --prefix apps/dashboard install`, then `npm run dev`. The API initializes its schema at startup. Use the examples in [API reference](api-reference.md). Baileys state lives in `WHATSAPP_AUTH_DIR`; keep it private and persistent. A local instance is not directly reachable by a remote website unless you configure a secure tunnel or public host.
