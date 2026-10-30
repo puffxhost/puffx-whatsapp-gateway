@@ -62,6 +62,8 @@ To authorize the workflow once:
 2. In the GitHub repository, open **Settings → Secrets and variables → Actions → New repository secret**. Name the secret `DOCKERHUB_TOKEN` and paste the Docker Hub token as its value.
 3. Open **Actions → Publish Docker image → Run workflow** on the default branch. When it finishes successfully, the `latest` image is available in Docker Hub.
 
+**Token scope:** Docker Hub personal-token repository permissions apply to every repository the account can access, not just this image. If that is broader than you want, use an organization access token restricted to this repository, or a Docker organization OIDC connection for GitHub Actions (available on Docker Team/Business). See Docker's [PAT permissions](https://docs.docker.com/security/access-tokens/reference/) and [OIDC setup](https://docs.docker.com/security/authentication/oidc-connections/).
+
 The local `docker compose up -d --build` command builds from source. To run the published image instead, use the repository's Compose file and pull the image first:
 
 ```sh
