@@ -15,6 +15,7 @@ import { BaileysProvider } from "./provider.js";
 const app = express(),
   PgStore = pgSession(session),
   provider = new BaileysProvider();
+const sessionStreams = new Map<string, Set<express.Response>>();
 const originList = (
   process.env.ALLOWED_ORIGINS ?? "http://127.0.0.1:3000"
 ).split(",");
@@ -55,7 +56,10 @@ app.get("/api/v1/health", (_q, r) => r.json({ status: "ok" }));
 app.get("/api/v1/ready", async (_q, r) => {
   try {
     await pool.query("SELECT 1");
-    r.json({ status: "ready", database: "ok" });
+    r.json({
+      status: "ready",
+      checks: { database: "ok", whatsapp: provider.healthSummary() },
+    });
   } catch {
     r.status(503).json({ status: "not_ready" });
   }
@@ -139,7 +143,7 @@ app.post("/api/v1/sessions", requireUser, async (req, res, next) => {
 app.get("/api/v1/sessions", requireUser, async (req, res, next) => {
   try {
     const { rows } = await pool.query(
-      "SELECT id,name,status,phone,last_connected_at,created_at FROM sessions WHERE user_id=$1 ORDER BY created_at DESC",
+      "SELECT id,name,status,phone,last_error,last_connected_at,created_at FROM sessions WHERE user_id=$1 ORDER BY created_at DESC",
       [req.session.userId],
     );
     res.json({ sessions: rows });
@@ -147,10 +151,47 @@ app.get("/api/v1/sessions", requireUser, async (req, res, next) => {
     next(e);
   }
 });
+app.get("/api/v1/sessions/events", requireUser, (req, res) => {
+  const userId = req.session.userId!;
+  res.status(200).set({
+    "Content-Type": "text/event-stream",
+    "Cache-Control": "no-cache, no-transform",
+    Connection: "keep-alive",
+    "X-Accel-Buffering": "no",
+  });
+  res.flushHeaders();
+  res.write("event: ready\ndata: {}\n\n");
+  const streams = sessionStreams.get(userId) ?? new Set<express.Response>();
+  streams.add(res);
+  sessionStreams.set(userId, streams);
+  const heartbeat = setInterval(() => res.write(": keep-alive\n\n"), 20_000);
+  res.on("close", () => {
+    clearInterval(heartbeat);
+    streams.delete(res);
+    if (!streams.size) sessionStreams.delete(userId);
+  });
+});
+async function broadcastSession(id: string, event: Record<string, unknown>) {
+  try {
+    const { rows } = await pool.query(
+      "SELECT user_id FROM sessions WHERE id=$1",
+      [id],
+    );
+    const streams = sessionStreams.get(rows[0]?.user_id);
+    const payload = JSON.stringify({ sessionId: id, ...event });
+    for (const stream of streams ?? [])
+      stream.write("event: session\n" + "data: " + payload + "\n\n");
+  } catch (error) {
+    console.error(
+      "session_event_failed",
+      (error as Error)?.message ?? "unknown",
+    );
+  }
+}
 app.get("/api/v1/sessions/:id", requireUser, async (req, res, next) => {
   try {
     const { rows } = await pool.query(
-      "SELECT id,name,status,phone,last_connected_at,created_at FROM sessions WHERE id=$1 AND user_id=$2",
+      "SELECT id,name,status,phone,last_error,last_connected_at,created_at FROM sessions WHERE id=$1 AND user_id=$2",
       [String(req.params.id), req.session.userId],
     );
     if (!rows[0])
@@ -170,10 +211,29 @@ async function ownerSession(id: string, user: string) {
   return r.rows[0] as { id: string; status: string } | undefined;
 }
 function publishSession(id: string, event: any) {
+  if (event.type === "qr") {
+    void pool.query(
+      "UPDATE sessions SET status='qr',last_error=NULL,updated_at=now() WHERE id=$1",
+      [id],
+    );
+    void broadcastSession(id, { status: "qr" });
+    return;
+  }
   void pool.query(
-    "UPDATE sessions SET status=$2,phone=COALESCE($3,phone),last_connected_at=CASE WHEN $2='connected' THEN now() ELSE last_connected_at END,updated_at=now() WHERE id=$1",
-    [id, event.status, event.phone ?? null],
+    "UPDATE sessions SET status=$2,phone=COALESCE($3,phone),last_error=$4,last_connected_at=CASE WHEN $2='connected' THEN now() ELSE last_connected_at END,updated_at=now() WHERE id=$1",
+    [id, event.status, event.phone ?? null, event.error ?? null],
   );
+  void broadcastSession(id, {
+    status: event.status,
+    phone: event.phone,
+    error: event.error,
+  });
+  if (event.status === "connected") {
+    qrCache.delete(id);
+    const timer = qrTimers.get(id);
+    if (timer) clearTimeout(timer);
+    qrTimers.delete(id);
+  }
 }
 app.post(
   "/api/v1/sessions/:id/pairing/qr",
@@ -185,18 +245,36 @@ app.post(
         return res
           .status(404)
           .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
-      await pool.query("UPDATE sessions SET status='connecting' WHERE id=$1", [
-        s.id,
-      ]);
+      await pool.query(
+        "UPDATE sessions SET status='connecting',last_error=NULL WHERE id=$1",
+        [s.id],
+      );
+      void broadcastSession(s.id, { status: "connecting" });
       await provider.connect(s.id, (event) => {
         if (event.type === "qr") {
           void import("qrcode")
             .then((q) => q.default.toDataURL(event.qr))
             .then((qr) => {
+              const previous = qrTimers.get(s.id);
+              if (previous) clearTimeout(previous);
               qrCache.set(s.id, qr);
-              setTimeout(() => qrCache.delete(s.id), 60_000).unref();
-            });
-        } else publishSession(s.id, event);
+              void broadcastSession(s.id, {
+                status: "qr",
+                qrCodeDataUrl: qr,
+                expiresInSeconds: 60,
+              });
+              const timer = setTimeout(() => {
+                qrCache.delete(s.id);
+                qrTimers.delete(s.id);
+              }, 60_000);
+              timer.unref();
+              qrTimers.set(s.id, timer);
+            })
+            .catch((error) =>
+              console.error("qr_render_failed", error?.message ?? "unknown"),
+            );
+        }
+        publishSession(s.id, event);
       });
       const existing = qrCache.get(s.id);
       if (existing) return res.json({ status: "qr", qrCodeDataUrl: existing });
@@ -211,7 +289,15 @@ app.post(
   },
 );
 const qrCache = new Map<string, string>();
+const qrTimers = new Map<string, NodeJS.Timeout>();
+function clearQr(id: string) {
+  qrCache.delete(id);
+  const timer = qrTimers.get(id);
+  if (timer) clearTimeout(timer);
+  qrTimers.delete(id);
+}
 app.get("/api/v1/sessions/:id/pairing/qr", requireUser, async (req, res) => {
+  res.setHeader("Cache-Control", "no-store");
   const s = await ownerSession(String(req.params.id), req.session.userId!);
   if (!s)
     return res
@@ -247,6 +333,11 @@ app.post(
         });
       arr.push(now);
       pairingAttempts.set(req.session.userId!, arr);
+      await pool.query(
+        "UPDATE sessions SET status='connecting',last_error=NULL WHERE id=$1",
+        [s.id],
+      );
+      void broadcastSession(s.id, { status: "connecting" });
       await provider.connect(s.id, (e) => {
         if (e.type === "status") publishSession(s.id, e);
       });
@@ -270,6 +361,11 @@ app.post(
         return res
           .status(404)
           .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
+      await pool.query(
+        "UPDATE sessions SET status='connecting',last_error=NULL WHERE id=$1",
+        [s.id],
+      );
+      void broadcastSession(s.id, { status: "connecting" });
       await provider.connect(s.id, (e) => {
         if (e.type === "status") publishSession(s.id, e);
       });
@@ -291,6 +387,8 @@ app.post("/api/v1/sessions/:id/logout", requireUser, async (req, res, next) => {
       "UPDATE sessions SET status='logged_out',updated_at=now() WHERE id=$1",
       [s.id],
     );
+    clearQr(s.id);
+    void broadcastSession(s.id, { status: "logged_out" });
     res.json({ status: "logged_out" });
   } catch (e) {
     next(e);
@@ -304,6 +402,7 @@ app.delete("/api/v1/sessions/:id", requireUser, async (req, res, next) => {
         .status(404)
         .json({ error: { code: "NOT_FOUND", message: "Session not found" } });
     await provider.disconnect(s.id, true);
+    clearQr(s.id);
     await pool.query("DELETE FROM sessions WHERE id=$1", [s.id]);
     res.status(204).end();
   } catch (e) {
@@ -443,6 +542,76 @@ app.get("/api/v1/messages", requireUser, async (req, res, next) => {
     next(e);
   }
 });
+app.get("/api/v1/overview", requireUser, async (req, res, next) => {
+  try {
+    const { rows } = await pool.query(
+      "SELECT (SELECT count(*) FROM sessions WHERE user_id=$1) AS sessions_total,(SELECT count(*) FROM sessions WHERE user_id=$1 AND status='connected') AS sessions_connected,(SELECT count(*) FROM messages WHERE user_id=$1 AND status='sent') AS messages_sent,(SELECT count(*) FROM messages WHERE user_id=$1 AND status='failed') AS messages_failed",
+      [req.session.userId],
+    );
+    res.json({ overview: rows[0] });
+  } catch (error) {
+    next(error);
+  }
+});
+app.post("/api/v1/messages/:id/retry", requireUser, async (req, res, next) => {
+  try {
+    const { rows } = await pool.query(
+      "SELECT m.id,m.session_id,m.to_number,m.body,m.status,s.status AS session_status FROM messages m JOIN sessions s ON s.id=m.session_id WHERE m.id=$1 AND m.user_id=$2",
+      [String(req.params.id), req.session.userId],
+    );
+    const message = rows[0];
+    if (!message)
+      return res.status(404).json({
+        error: { code: "NOT_FOUND", message: "Message not found" },
+      });
+    if (message.status !== "failed")
+      return res.status(409).json({
+        error: {
+          code: "MESSAGE_NOT_FAILED",
+          message: "Only failed messages can be retried",
+        },
+      });
+    if (message.session_status !== "connected")
+      return res.status(409).json({
+        error: {
+          code: "SESSION_NOT_CONNECTED",
+          message: "Reconnect the WhatsApp session before retrying",
+        },
+      });
+    const claimed = await pool.query(
+      "UPDATE messages SET status='sending',error_code=NULL,updated_at=now() WHERE id=$1 AND status='failed' RETURNING id",
+      [message.id],
+    );
+    if (!claimed.rowCount)
+      return res.status(409).json({
+        error: {
+          code: "MESSAGE_RETRY_IN_PROGRESS",
+          message: "This message is already being retried",
+        },
+      });
+    let sent: { id: string };
+    try {
+      sent = await provider.sendText(
+        message.session_id,
+        message.to_number,
+        message.body,
+      );
+    } catch (error) {
+      await pool.query(
+        "UPDATE messages SET status='failed',error_code='PROVIDER_ERROR',updated_at=now() WHERE id=$1",
+        [message.id],
+      );
+      throw error;
+    }
+    const updated = await pool.query(
+      "UPDATE messages SET status='sent',provider_message_id=$2,error_code=NULL,updated_at=now() WHERE id=$1 RETURNING id,session_id,to_number,type,status,provider_message_id,error_code,created_at,updated_at",
+      [message.id, sent.id],
+    );
+    res.json({ message: updated.rows[0] });
+  } catch (error) {
+    next(error);
+  }
+});
 app.get("/api/v1/messages/:id", requireUser, async (req, res, next) => {
   try {
     const { rows } = await pool.query(
@@ -508,8 +677,11 @@ await migrate();
 const authRoot = path.resolve(
   process.env.WHATSAPP_AUTH_DIR ?? "./data/whatsapp",
 );
+await pool.query(
+  "UPDATE sessions SET status='disconnected',last_error='Gateway restarted. Reconnecting…',updated_at=now() WHERE status IN ('connecting','qr','connected')",
+);
 const saved = await pool.query(
-  "SELECT id FROM sessions WHERE status IN ('connected','connecting','disconnected')",
+  "SELECT id FROM sessions WHERE status IN ('connected','disconnected')",
 );
 for (const row of saved.rows) {
   try {
@@ -518,7 +690,10 @@ for (const row of saved.rows) {
       if (event.type === "status") publishSession(row.id, event);
     });
   } catch {
-    /* no saved auth state to recover; require explicit pairing */
+    await pool.query(
+      "UPDATE sessions SET status='disconnected',last_error='No saved WhatsApp login found. Pair this session again.',updated_at=now() WHERE id=$1",
+      [row.id],
+    );
   }
 }
 const server = app.listen(port, host, () =>
@@ -531,3 +706,4 @@ async function shutdown() {
 }
 process.on("SIGTERM", shutdown);
 process.on("SIGINT", shutdown);
+
