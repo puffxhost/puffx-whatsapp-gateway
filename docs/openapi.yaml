@@ -1,7 +1,7 @@
 openapi: 3.1.0
 info:
   title: Puffx WhatsApp Gateway API
-  version: 0.1.0
+  version: 0.2.0
   description: >-
     Owner-isolated self-hosted gateway. Sent means accepted by the provider;
     delivered/read are not available in this release.
@@ -101,6 +101,14 @@ paths:
       responses:
         "201":
           description: Created
+  /sessions/events:
+    get:
+      summary: Stream owned session status and QR changes
+      responses:
+        "200":
+          description: Server-sent event stream
+        "401":
+          description: Unauthorized
   /sessions/{id}:
     parameters:
       - in: path
@@ -235,6 +243,27 @@ paths:
       responses:
         "200":
           description: Message page
+  /overview:
+    get:
+      summary: Workspace session and message counts
+      responses:
+        "200":
+          description: Overview statistics
+  /messages/{id}/retry:
+    post:
+      summary: Retry a failed message
+      parameters:
+        - in: path
+          name: id
+          required: true
+          schema: { type: string, format: uuid }
+      responses:
+        "200":
+          description: Retry accepted by the provider
+        "404":
+          description: Message not found
+        "409":
+          description: Message is not retryable or its session is disconnected
   /messages/{id}:
     get:
       summary: Read owned message

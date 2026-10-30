@@ -257,4 +257,3 @@ npm run build
 ## License
 
 MIT. See [LICENSE](LICENSE).
-
