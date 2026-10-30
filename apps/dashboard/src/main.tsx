@@ -994,4 +994,3 @@ function statusLabel(status: string) {
   return labels[status] || "Not connected";
 }
 createRoot(document.getElementById("root")!).render(<App />);
-
