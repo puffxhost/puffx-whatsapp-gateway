@@ -183,4 +183,3 @@ export class BaileysProvider implements WhatsAppProvider {
     this.listeners.clear();
   }
 }
-
