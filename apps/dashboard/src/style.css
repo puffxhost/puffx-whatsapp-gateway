@@ -279,6 +279,27 @@ h2 {
   font-size: 11px;
   margin-top: 5px;
 }
+.sessionid {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin-top: 5px;
+  min-width: 0;
+}
+.sessionid code {
+  color: #9ca4b7;
+  font:
+    10px "DM Mono",
+    monospace;
+  overflow-wrap: anywhere;
+}
+.copyid {
+  flex: 0 0 auto;
+  padding: 3px 7px;
+  background: #252b39;
+  color: #cafa98;
+  font-size: 10px;
+}
 .badge {
   font: 10px "DM Mono";
   text-transform: uppercase;

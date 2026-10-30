@@ -242,9 +242,19 @@ function App() {
                   <div className="sessioninfo">
                     <strong>{s.name}</strong>
                     <span>
-                      {s.phone || s.id.slice(0, 8)} · Added{" "}
+                      {s.phone || "Not paired yet"} · Added{" "}
                       {new Date(s.created_at).toLocaleDateString()}
                     </span>
+                    <div className="sessionid">
+                      <code>{s.id}</code>
+                      <button
+                        className="copyid"
+                        aria-label="Copy session ID"
+                        onClick={() => void navigator.clipboard.writeText(s.id)}
+                      >
+                        Copy ID
+                      </button>
+                    </div>
                   </div>
                   <span className={"badge " + s.status}>
                     <i></i>

@@ -4,6 +4,8 @@ Self-hosted WhatsApp messaging gateway with a web dashboard, REST API, PostgreSQ
 
 > **Status:** Initial beta implementation. It supports pairing a WhatsApp Web account and sending text messages. Baileys is an unofficial WhatsApp Web integration, not the official WhatsApp Business Platform. Real WhatsApp pairing and delivery behavior depend on WhatsApp and were not verified by automated tests. Review [security and limitations](docs/security.md) before exposing an instance publicly.
 
+![Animated quick-start walkthrough: configure, run, pair, and send](basic_start.gif)
+
 ## What you need
 
 - Docker Engine and Docker Compose (recommended), or Node.js 20.19+, npm, and PostgreSQL 14+.
@@ -15,12 +17,16 @@ Self-hosted WhatsApp messaging gateway with a web dashboard, REST API, PostgreSQ
 This is the quickest way to start locally. In PowerShell:
 
 ```powershell
+git clone https://github.com/puffxhost/puffx-whatsapp-gateway.git
+Set-Location puffx-whatsapp-gateway
 Copy-Item .env.example .env
 ```
 
 On Linux or macOS:
 
 ```sh
+git clone https://github.com/puffxhost/puffx-whatsapp-gateway.git
+cd puffx-whatsapp-gateway
 cp .env.example .env
 ```
 
@@ -53,13 +59,13 @@ docker compose down -v
 3. Choose **QR pair** and scan the displayed QR from WhatsApp on your phone: **Settings → Linked devices → Link a device**. You can use **Pairing code** instead if needed.
 4. Wait until the session status says `connected`.
 5. Select **Create API key** and copy the key immediately. It is shown only once. Store it in your server-side environment or secret manager.
-6. Keep the session ID shown in the dashboard/session API; you need it when sending a message.
+6. Use **Copy ID** on the session card to copy its full session UUID. You need it when sending a message.
 
 The dashboard and API are intended to be deployed on the same origin. Do not put an API key in browser JavaScript or share QR codes, pairing codes, or WhatsApp auth files.
 
 ## Send a text message
 
-Set these values in the terminal where you run the command:
+The following example uses Bash, WSL, or Git Bash. Set these values in the same terminal where you run the command:
 
 ```sh
 export PUFFX_BASE_URL="http://127.0.0.1:3000"
@@ -97,7 +103,33 @@ See [local installation](docs/installation.md) for more detail.
 
 ## Public server deployment
 
-For a VPS, point your domain to the server and put the gateway behind an HTTPS reverse proxy. Set `PUBLIC_BASE_URL=https://your-domain.example` and `COOKIE_SECURE=true` in `.env`, then configure TLS and proxy HTTPS requests to `127.0.0.1:3000`. Keep PostgreSQL and the auth volume private, back them up, and restrict access to the server. See [Docker deployment](docs/docker-deployment.md) and [VPS deployment](docs/vps-deployment.md).
+For a VPS, point your domain to the server and put the gateway behind an HTTPS reverse proxy. The Compose file binds port 3000 to `127.0.0.1`, so the API is not directly exposed to the internet.
+
+1. Install Docker Compose, configure DNS for your domain, and clone this repository on the VPS.
+2. Copy `.env.example` to `.env`; set unique random `POSTGRES_PASSWORD`, `SESSION_SECRET`, and `API_KEY_PEPPER` values.
+3. Set `PUBLIC_BASE_URL=https://your-domain.example` and `COOKIE_SECURE=true` in `.env`.
+4. Configure Nginx or another reverse proxy with a valid TLS certificate, forwarding HTTPS requests to `127.0.0.1:3000`. The sample config is in [`docker/nginx.conf`](docker/nginx.conf).
+5. Run `docker compose up -d --build`, then verify `https://your-domain.example/api/v1/ready` returns `ready`.
+6. Back up both the PostgreSQL database and the `whatsapp_data` volume. Keep the DB and auth files private; expose only the HTTPS dashboard/API.
+
+See [Docker deployment](docs/docker-deployment.md) and [VPS deployment](docs/vps-deployment.md) for proxy and backup examples. Do not invite users to a public deployment until you have reviewed [security notes](docs/security.md), configured HTTPS and strong secrets, and restricted access as needed.
+
+## Operate the gateway
+
+```sh
+docker compose logs -f gateway       # follow application logs
+docker compose ps                    # check service health
+docker compose restart gateway       # restart the API
+docker compose down                  # stop services, preserve data
+```
+
+To back up PostgreSQL:
+
+```sh
+docker compose exec -T db pg_dump -U puffx puffx > puffx-backup.sql
+```
+
+Also back up the `whatsapp_data` Docker volume with the gateway stopped. Treat both backups as sensitive because they contain account and session data. `docker compose down -v` permanently removes the database and WhatsApp login volume.
 
 ## API and project docs
 
@@ -106,6 +138,7 @@ For a VPS, point your domain to the server and put the gateway behind an HTTPS r
 - [Installation](docs/installation.md)
 - [Security notes and limitations](docs/security.md)
 - [Troubleshooting](docs/troubleshooting.md)
+- [Animated setup walkthrough](basic_start.gif)
 
 ## Current limitations
 
