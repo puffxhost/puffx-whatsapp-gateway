@@ -1,43 +1,128 @@
 # Puffx WhatsApp Gateway
 
-Self-hosted Node.js gateway for pairing a WhatsApp Web account with QR or phone pairing code and sending authenticated text messages through REST. It includes a React dashboard, PostgreSQL persistence, hashed single-view API keys, owner-scoped sessions, Docker Compose, and OpenAPI documentation.
+Self-hosted WhatsApp messaging gateway with a web dashboard, REST API, PostgreSQL, and QR or phone pairing. You run it on your own computer or server; this GitHub repository does not provide a hosted gateway.
 
-## Status
+> **Status:** Initial beta implementation. It supports pairing a WhatsApp Web account and sending text messages. Baileys is an unofficial WhatsApp Web integration, not the official WhatsApp Business Platform. Real WhatsApp pairing and delivery behavior depend on WhatsApp and were not verified by automated tests. Review [security and limitations](docs/security.md) before exposing an instance publicly.
 
-Initial implementation, not a production security certification. Baileys is an unofficial WhatsApp Web integration; it is not the official WhatsApp Business Platform. Its API can break and its use may be restricted. This build supports text only; provider acknowledgements, media, webhooks, Cloud API, admin UI, full event streaming, and encryption-at-rest for Baileys auth files are not implemented. Delivery/read are never claimed. Real WhatsApp pairing requires an account and was not tested in CI.
+## What you need
 
-## Quick start
+- Docker Engine and Docker Compose (recommended), or Node.js 20.19+, npm, and PostgreSQL 14+.
+- For a public server: a domain, HTTPS reverse proxy, persistent storage, and outbound WebSocket access.
+- A WhatsApp account that you can pair using **Linked devices**.
 
-Requirements: Node.js 20.19+, npm, and PostgreSQL 14+. Copy `.env.example` to `.env`, set unique random secrets, configure `DATABASE_URL`, install dependencies with `npm install` and `npm --prefix apps/dashboard install`, then run `npm run dev`. Visit `http://127.0.0.1:5173`, register, create a WhatsApp session, and select pairing. The API listens on `http://127.0.0.1:3000`. See [local installation](docs/installation.md).
+## Run with Docker
 
-For Docker: configure `.env` with strong `SESSION_SECRET`, `API_KEY_PEPPER`, and `POSTGRES_PASSWORD`, then run `docker compose up -d --build`. Persistent database and auth volumes are configured. See [Docker](docs/docker-deployment.md) and [VPS](docs/vps-deployment.md).
+This is the quickest way to start locally. In PowerShell:
 
-## Send a message
+```powershell
+Copy-Item .env.example .env
+```
 
-Create a key in the dashboard and retain the displayed secret securely. Example:
+On Linux or macOS:
+
+```sh
+cp .env.example .env
+```
+
+Edit `.env` and replace `POSTGRES_PASSWORD`, `SESSION_SECRET`, and `API_KEY_PEPPER` with unique random values. For example, generate a value with `openssl rand -hex 32` where OpenSSL is installed. Keep the two application secrets different and never commit `.env`.
+
+Start the gateway:
+
+```sh
+docker compose up -d --build
+```
+
+Open [http://127.0.0.1:3000](http://127.0.0.1:3000). Check that [http://127.0.0.1:3000/api/v1/ready](http://127.0.0.1:3000/api/v1/ready) reports `ready`. Docker Compose persists the database and WhatsApp login state in named volumes.
+
+To stop it while keeping data:
+
+```sh
+docker compose down
+```
+
+To remove the database and WhatsApp login data as well (destructive):
+
+```sh
+docker compose down -v
+```
+
+## First-time setup
+
+1. Open the dashboard and choose **Create an account**. Use a strong password.
+2. Select **Add session** and give the WhatsApp account a name.
+3. Choose **QR pair** and scan the displayed QR from WhatsApp on your phone: **Settings → Linked devices → Link a device**. You can use **Pairing code** instead if needed.
+4. Wait until the session status says `connected`.
+5. Select **Create API key** and copy the key immediately. It is shown only once. Store it in your server-side environment or secret manager.
+6. Keep the session ID shown in the dashboard/session API; you need it when sending a message.
+
+The dashboard and API are intended to be deployed on the same origin. Do not put an API key in browser JavaScript or share QR codes, pairing codes, or WhatsApp auth files.
+
+## Send a text message
+
+Set these values in the terminal where you run the command:
+
+```sh
+export PUFFX_BASE_URL="http://127.0.0.1:3000"
+export PUFFX_API_KEY="paste-your-api-key"
+export PUFFX_SESSION_ID="paste-session-uuid"
+```
+
+Then send a message using the recipient number with country code and digits only (no `+`, spaces, or dashes):
 
 ```sh
 curl --connect-timeout 5 --max-time 20 -X POST "$PUFFX_BASE_URL/api/v1/messages/send" \
- -H "Authorization: Bearer $PUFFX_API_KEY" -H 'Content-Type: application/json' \
- -d '{"sessionId":"SESSION_UUID","to":"919876543210","type":"text","message":"Your order is confirmed."}'
+  -H "Authorization: Bearer $PUFFX_API_KEY" \
+  -H 'Content-Type: application/json' \
+  -d "{\"sessionId\":\"$PUFFX_SESSION_ID\",\"to\":\"919876543210\",\"type\":\"text\",\"message\":\"Hello from Puffx!\"}"
 ```
 
-See [API reference](docs/api-reference.md) for PHP, Python, Node.js, and proxy examples. Never place a private API key in browser JavaScript.
+The API returns `202` when the provider accepts the message. That does **not** confirm delivery or read status. See [API reference](docs/api-reference.md) for PHP, Python, Node.js, and idempotency examples.
 
-## Architecture and deployment
+## Run locally for development
 
-`apps/api` contains the Express API and Baileys provider adapter. `apps/dashboard` contains the React UI. `database/migrations` defines PostgreSQL records for users, sessions, API keys, messages, webhooks, audit logs, usage, and settings. The Cloud API should be a separate provider adapter with its own credentials and template/opt-in rules; QR pairing does not apply to it.
+1. Install Node.js 20.19+ and npm.
+2. Copy `.env.example` to `.env` and set unique secrets.
+3. Start PostgreSQL 14+ and set `DATABASE_URL` in `.env`. To run only the Compose database, use `docker compose up -d db`.
+4. Install dependencies and start the API and dashboard:
 
-- [Windows/Linux/macOS localhost](docs/localhost.md)
-- [Docker](docs/docker-deployment.md)
-- [Linux VPS](docs/vps-deployment.md)
-- [cPanel constraints](docs/cpanel-deployment.md)
-- [Security](docs/security.md)
+   ```sh
+   npm ci
+   npm --prefix apps/dashboard ci
+   npm run dev
+   ```
+
+5. Open [http://127.0.0.1:5173](http://127.0.0.1:5173). The development dashboard proxies API requests to port 3000.
+
+See [local installation](docs/installation.md) for more detail.
+
+## Public server deployment
+
+For a VPS, point your domain to the server and put the gateway behind an HTTPS reverse proxy. Set `PUBLIC_BASE_URL=https://your-domain.example` and `COOKIE_SECURE=true` in `.env`, then configure TLS and proxy HTTPS requests to `127.0.0.1:3000`. Keep PostgreSQL and the auth volume private, back them up, and restrict access to the server. See [Docker deployment](docs/docker-deployment.md) and [VPS deployment](docs/vps-deployment.md).
+
+## API and project docs
+
+- [OpenAPI contract](docs/openapi.yaml)
+- [API examples and endpoints](docs/api-reference.md)
+- [Installation](docs/installation.md)
+- [Security notes and limitations](docs/security.md)
 - [Troubleshooting](docs/troubleshooting.md)
 
-## Development
+## Current limitations
 
-Commands: `npm run dev`, `npm run typecheck`, `npm test`, `npm run build`. Schema migration is currently applied automatically on API startup. Back up both PostgreSQL and the persistent WhatsApp auth volume; never commit either backup or `.env`.
+- Text messages only; no media, webhooks, Cloud API, queue, or admin console.
+- Delivery/read receipts are not implemented. `sent` means accepted by the provider.
+- Baileys auth state is stored on disk and is not encrypted by the application. Protect the volume and backups.
+- Baileys is unofficial and may break or be restricted by WhatsApp. Use opted-in communications and comply with WhatsApp terms and local law.
+
+## Development checks
+
+```sh
+npm run format:check
+npm run lint
+npm run typecheck
+npm test
+npm run build
+```
 
 ## License
 
