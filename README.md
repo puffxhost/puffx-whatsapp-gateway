@@ -14,7 +14,27 @@ Self-hosted WhatsApp messaging gateway with a web dashboard, REST API, PostgreSQ
 
 ## Run with Docker
 
-This is the quickest way to start locally. In PowerShell:
+This is the quickest way to start locally. First install and start Docker Desktop, then in **Windows Command Prompt (CMD)** run:
+
+```bat
+git clone https://github.com/puffxhost/puffx-whatsapp-gateway.git
+cd puffx-whatsapp-gateway
+setup-windows.cmd
+```
+
+The helper copies `.env.example` to `.env` on first run, opens it in Notepad so you can replace the three sample secrets (`POSTGRES_PASSWORD`, `SESSION_SECRET`, and `API_KEY_PEPPER`), then starts the database and gateway. Save and close Notepad to continue. Keep `.env` private. Once setup finishes, open [http://127.0.0.1:3000](http://127.0.0.1:3000). Docker Desktop must be running. You can also run the commands manually in CMD:
+
+```bat
+git clone https://github.com/puffxhost/puffx-whatsapp-gateway.git
+cd puffx-whatsapp-gateway
+copy .env.example .env
+notepad .env
+docker compose up -d --build
+```
+
+Replace the three sample secrets in Notepad before starting Docker Compose.
+
+In PowerShell:
 
 ```powershell
 git clone https://github.com/puffxhost/puffx-whatsapp-gateway.git
@@ -110,6 +130,24 @@ curl --connect-timeout 5 --max-time 20 -X POST "$PUFFX_BASE_URL/api/v1/messages/
 ```
 
 The API returns `202` when the provider accepts the message. That does **not** confirm delivery or read status. See [API reference](docs/api-reference.md) for PHP, Python, Node.js, and idempotency examples.
+
+### Windows Command Prompt (CMD) example
+
+In the same CMD window, set these variables. Get the API key from the dashboard using **Create API key** (copy it immediately; it is shown once) and get the session UUID using **Copy ID** on that session's card. These values are for the client calling the gateway, not the gateway's `.env` file:
+
+```bat
+set "PUFFX_BASE_URL=http://127.0.0.1:3000"
+set "PUFFX_API_KEY=paste-your-api-key"
+set "PUFFX_SESSION_ID=paste-session-uuid"
+```
+
+Send a text message with `curl.exe` (use a phone number with country code and digits only):
+
+```bat
+curl.exe --connect-timeout 5 --max-time 20 -X POST "%PUFFX_BASE_URL%/api/v1/messages/send" -H "Authorization: Bearer %PUFFX_API_KEY%" -H "Content-Type: application/json" --data "{\"sessionId\":\"%PUFFX_SESSION_ID%\",\"to\":\"919876543210\",\"type\":\"text\",\"message\":\"Hello from Puffx!\"}"
+```
+
+`set` only keeps these values in the current CMD window. Open a new window and set them again when needed. On a remote VPS, use its HTTPS gateway URL instead of `http://127.0.0.1:3000`. Treat the API key as a password; never put it in a public script or browser code.
 
 ### Windows PowerShell example
 
@@ -219,3 +257,4 @@ npm run build
 ## License
 
 MIT. See [LICENSE](LICENSE).
+
